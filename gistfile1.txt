@@ -1,0 +1,4196 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+	  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Agent Notes flighthub</title>
+<link rel="shortcut icon" type="image/jpg" href="https://m.flighthub.com/images/touch/logo-192x192.png"/>
+
+	<style type="text/css">
+		@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+
+body{
+   background-color: #f3f5f9;
+   zoom: 90%;
+   overflow-x: hidden;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Lato', sans-serif;
+
+}
+
+/************************************start of inputs style******************************/
+/*start of inputs style*/
+/*start of inputs style*/
+/*start of inputs style*/
+
+
+
+
+/*end of inputs style*/
+/*end of inputs style*/
+/*end of inputs style*/
+/************************************end of inputs style**********************************/
+
+.headerlinks{
+  font-size:16.5px;
+  color:#3384bf;
+ // color:#f05623;
+//  border-style: solid;
+// border:1px;
+padding-left:5px;
+
+}
+.headeremails{
+  // font-size:16.5px;
+  // color:#3384bf;
+ // color:#f05623;
+//  border-style: solid;
+// border:1px;
+padding-left:3px;
+font-size:16px;
+}
+
+.headerlinks:hover{
+  // font-size:17px;
+  padding-bottom:10px;
+border-bottom: 2px solid #1577b0;
+ // color:#f05623;
+
+}
+
+.headeremails:hover{
+  // font-size:17px;
+  border-bottom: 3px double #1577b0;
+  // color:#f05623;
+}
+
+#maindiv{
+ 
+  position: relative;
+/*text-transform: uppercase;*/
+  text-align: center;
+  margin-bottom: 30px;
+    width: 100%;
+margin-left:0px;
+ 	
+}
+
+
+
+textarea:focus {
+  border-color:#efdaa3; 
+  // background: #FFFFBE;
+  /*  width: 100px;*/
+
+  transition: ease-in-out, width .35s ease-in-out;
+  font-size:1.2em;
+  width:81%;
+  height :80px;
+  border-style: solid;
+borer.color:red;
+
+
+
+}
+
+
+#farerules{
+  width:80%; 5%;
+  height:6em;
+  min-height: 6em;
+  min-width: 80%;
+  font-size:1.2em;
+  line-height:1.5em;
+  vertical-align:middle; 
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6), 0 0 1px rgba(0, 0, 0, 0);
+  border-radius: 7px;
+    border-color:#efdaa3;
+// resize: none;
+overflow: hidden;
+  resize: none;
+
+}
+
+textarea{
+	outline: none;
+
+	background:#fff6d9; 
+
+	padding:1em;
+  // padding-top:1px; 
+	width:80%; 5%;
+  min-height: 6em;
+  min-width: 80%;
+  height:6em;
+	font-size:1.2em;
+	line-height:1.5em;
+	vertical-align:middle; 
+	box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6), 0 0 1px rgba(0, 0, 0, 0);
+	border-radius: 7px;
+    border-color:#efdaa3;
+// resize: none;
+overflow: hidden;
+  resize: none;
+}
+#text-area-result{
+	width:50%; 5%;
+  height:20em;
+  margin-top:5px;
+overflow: hidden;
+position:relative;
+left:40px;
+}
+
+
+#zdid{
+  outline: none;
+
+  background:#fff6d9; 
+margin-left:-50%;
+  padding:1em; 
+  width:20%; 5%;
+  min-height: 6em;
+  min-width: 8%;
+  height:6em;
+  font-size:1.2em;
+  line-height:1.5em;
+  vertical-align:middle; 
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6), 0 0 1px rgba(0, 0, 0, 0);
+  border-radius: 7px;
+    border-color:#efdaa3;
+// resize: none;
+overflow: hidden;
+  resize: none;
+}
+
+#cxinteraction2{
+  outline: none;
+position:absolute;
+  background:#fff6d9; 
+margin-left:-6%;
+margin-top:-0.5%;
+  padding:1em; 
+  width:15%; 5%;
+  min-height: 4em;
+  min-width: 8%;
+  height:1em;
+  font-size:1.2em;
+  line-height:1.5em;
+  vertical-align:middle; 
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6), 0 0 1px rgba(0, 0, 0, 0);
+  border-radius: 7px;
+    border-color:#efdaa3;
+// resize: none;
+overflow: hidden;
+  resize: none;
+}
+
+#resultbutton{
+//  position:absolute;
+// left:40px;
+// bottom:20%;
+ 
+                    display: inline-block;
+                    outline: 0;
+                    border: 0;
+                    cursor: pointer;
+                    background-color: #4299e1;
+                    border-radius: 4px;
+                    padding: 8px 16px;
+                    font-size: 16px;
+                    border-bottom: 4px solid #2b6cb0;
+                    font-weight: 700;
+                    color: white;
+                    line-height: 26px;
+                
+
+}
+
+#btnbtn4{
+
+// position:relative;
+// left:40px;
+// bottom:15%;
+
+               
+                    display: inline-block;
+                    outline: 0;
+                    border: 0;
+                    cursor: pointer;
+                    background-color: #4299e1;
+                    border-radius: 4px;
+                    padding: 8px 16px;
+                    font-size: 16px;
+                    border-bottom: 4px solid #2b6cb0;
+                    font-weight: 700;
+                    color: white;
+                    line-height: 26px;
+                
+                
+                
+
+}
+
+#resultbuttons{
+  // padding-left:15px;
+}
+
+#zdbtn1,zdbtn2{
+    // visibility: hidden;
+  font-size:13px;
+padding-right:3px;
+padding-left:3px;
+margin-left:5px;
+margin-right:5px;
+// position:absolute;
+  // bottom: 20px;
+  // left:20px;
+}
+
+// buttons 
+
+#agreementbtn1,#agreementbtn2,agreementbtn3{
+    // visibility: hidden;
+  font-size:13px;
+padding-right:3px;
+padding-left:3px;
+margin-left:5px;
+margin-right:5px;
+visibility: visible;
+}
+#actiontakenbtn1,#actiontakenbtn2,#actiontakenbtn3{
+    // visibility: hidden;
+  font-size:13px;
+padding-right:3px;
+padding-left:3px;
+margin-left:5px;
+margin-right:5px;
+}
+#selectedsegmentsbtn1{
+    // visibility: hidden;
+  font-size:13px;
+padding-right:3px;
+padding-left:3px;
+margin-left:5px;
+margin-right:5px;
+}
+#nextstepsbtn1,#nextstepsbtn2,#nextstepsbtn3{
+    // visibility: hidden;
+  font-size:13px;
+padding-right:3px;
+padding-left:3px;
+margin-left:5px;
+margin-right:5px;
+}
+#additionalinformationbtn1{
+   // visibility: hidden;
+  font-size:13px;
+padding-right:3px;
+padding-left:3px;
+margin-left:5px;
+margin-right:5px;
+}
+
+
+
+
+#propositionbtn8{
+	visibility: visible;
+}
+
+
+
+
+
+#copynotfication{
+  width: 10%;
+  position:absolute;
+  background-color: #202020;
+  color: #ffffff;
+  font-size: 18px;
+  text-align: center;
+  margin: auto;
+  // bottom: 20px;
+  // padding: 1px 0;
+  visibility: hidden;
+  border-radius:10px;
+  margin-left:50px;
+}
+#identifyfilledinputs{
+  width: 10%;
+  background-color: #202020;
+  color: #ffffff;
+  font-size: 18px;
+  text-align: center;
+  margin: auto;
+  bottom: 20px;
+  padding: 5px 0;
+  visibility: hidden;
+  border-radius:10px;
+}
+
+
+#guidancetext{
+  // visibility: hidden;
+
+    font-size:15px;
+  color:#f05623;
+  text-align:left;
+  padding-left:4%;
+  padding-right:25%;
+  padding-top:30px;
+
+
+
+}
+
+
+#alltemplatesbutoons{
+	position:relative;
+	left:80%;
+
+
+}
+
+#Templatesoff,#Templateson,#Readymadebuttonsoff,#Readymadebuttonson{
+	  background-color: #bdb8d7;
+  color: #4b4276;
+  border: 0px;
+  border-style: solid;
+  border-color:#3384bf;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 60%;
+  position: relative;
+  left:110px;
+
+}
+
+#sidetext1,#sidetext2{
+	position:relative;
+	font-size:18px;
+
+}
+
+#Templateson,#Readymadebuttonson{
+	visibility: visible;
+	// position:relative;
+
+
+}
+#Templatesoff,#Readymadebuttonsoff{
+	visibility: visible;
+	// position:relative;
+
+
+}
+
+/*start of the side novigation style*/
+/************************start of the side novigation style*********************************/
+/*start of the side novigation style*/
+/*start of the side novigation style*/
+/*start of the side novigation style*/
+
+
+// // #sliderindex{
+//   background-color:red;
+//   float: left;
+//   display: grid;
+
+// // }
+
+h1{
+  font-size:20px;
+  color:#bdb8d7;
+  text-align:left;
+  padding-left:10px;
+}
+
+.cxinteraction{
+    font-size:15px;
+  color:#4b4276;
+  text-align:center;
+  padding-top:10px;
+
+  margin-bottom:-13px;
+  margin-right:100px;
+}
+.zdclass{
+  padding-right:50%;
+}
+
+#maininptsheader{
+  font-size:15px;
+  color:#4b4276;
+  text-align:center;
+  padding-top:1px;
+
+  margin-bottom:-13px;
+
+
+}
+
+li:hover {
+    background-color:red;
+    cursor: pointer;
+
+}
+
+.wrapper{
+  display: flex;
+  position: relative;
+
+}
+
+.wrapper .sidebar{
+  width: 200px;
+  height: 120%;
+  background: #4b4276;
+  padding: 30px 0px;
+  position: absolute;
+  visibility : visible;
+}
+
+.wrapper .sidebar h2{
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.wrapper .sidebar ul li{
+  padding: 1px;
+  border-bottom: 1px solid #bdb8d7;
+  border-bottom: 1px solid rgba(0,0,0,0.05);
+  border-top: 1px solid rgba(255,255,255,0.05);
+}    
+
+.wrapper .sidebar ul li a{
+  color: #bdb8d7;
+  display: s;
+}
+
+.wrapper .sidebar ul li a .fas{
+  width: 25px;
+}
+
+.wrapper .sidebar ul li:hover{
+  background-color: #594f8d;
+}
+
+
+
+
+
+
+// *********
+// 
+
+.wrapper .sidebar ul li:active{
+  background-color: ;
+  transition: filter 0s;
+  font-size:17px;
+
+}  
+.wrapper .sidebar ul li:hover{
+  // background-color: red;
+  transition: filter 0s;
+  font-size:17px;
+
+} 
+
+
+
+
+
+
+
+
+
+
+
+.wrapper .sidebar ul li:hover a{
+  color: #fff;
+}
+ 
+.wrapper .sidebar .social_media{
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+}
+
+.wrapper .sidebar .social_media a{
+  display: block;
+  width: 40px;
+  background: #594f8d;
+  height: 40px;
+  line-height: 45px;
+  text-align: center;
+  margin: 0 5px;
+  color: #bdb8d7;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.wrapper .main_content{
+  width: 100%;
+  margin-left: 200px;
+ // opacity: 100%;
+}
+
+.wrapper .main_content .header{
+  padding: 20px;
+  width:100%;
+  background: #fff;
+  color: #717171;
+  border-bottom: 1px solid #e0e4e8;
+
+}
+
+.wrapper .main_content .info{
+  margin: 20px;
+  color: #717171;
+  line-height: 25px;
+}
+
+.wrapper .main_content .info div{
+  margin-bottom: 20px;
+}
+
+@media (max-height: 500px){
+  .social_media{
+    display: none !important;
+  }
+}
+
+.social_mediaa{
+  visibility:hidden;
+}
+
+
+/*end of the side novigation style*/
+/*end of the side novigation style*/
+/*end of the side novigation style*/
+/*end of the side novigation style*/
+/*end of the side novigation style*/
+
+
+
+
+
+
+}
+#wrapperid,wrapperid2,wrapperid3{
+	visibility: visible;
+	// display:grid;
+	// position:absolute;
+overflow: hidden;
+}
+
+	</style>
+
+</head>
+<body onload="greetTemplatesoff();greetreadymadebuttonson()">
+
+
+<script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+
+
+<div class="wrapper">
+
+    <div class="sidebar" id="wrapperid">
+
+        <h2>Templates</h2>
+        
+<br>
+<br>
+
+        <img src="https://flighthubgroup.com/img/logo-flighthub.svg" alt="Trulli" >
+
+
+        
+<div id="sliderindex" id="sliderindex2">
+
+<ul>
+
+<li>
+
+</li>
+
+</ul> 
+</div>
+
+
+
+
+        <ul id="sliderindex3">
+        <h1 id="voidcasesheader">void cases</h1>
+            <li id="voidimplementedCA"><a><i class="fas fa-homee"></i>void implemented </a></li>
+            <li id="NONVoidableCA"><a><i class="fas fa-userr"></i>NON-Voidable </a></li>
+            <li id="VoidWenrix"><a><i class="fas fa-blogg"></i>Abort Wenrix</a></li>
+            <li id="SkipoptimizationWenrix"><a><i class="fas fa-blogg"></i>Skip optimize Wenrix</a></li>
+            <li id="voidtravelport"><a><i class="fas fa-address-bookk"></i>void travel port</a></li>
+            <li id="voidtravelfusion"><a><i class="fas fa-map-pinn"></i>void travelfusion</a></li>
+            <li id="voidkiwi"><a><i class="fas fa-homee"></i>void kiwi</a></li>
+            <li id="didntgothrough"><a><i class="fas fa-homee"></i>didn't go through</a></li>
+<br>
+
+<h1 id="voluntrychangesheader">Volunrtry Changes</h1>
+            <li id="CHANGETHEDEPATURE"><a><i class="fas fa-userr"></i>Change The Depature</a></li>
+            <li id="CHANGETHERETURN"><a><i class="fas fa-address-cardd"></i>Change The Return</a></li>
+           <li id="allnotpermitted"><a><i class="fas fa-address-cardd"></i>non-changeable non-refundable</a></li>
+
+
+<br>
+<h1 id="involuntrychangesheader">IN-volunrtry changes</h1>
+            <li id="involuntrychange"><a><i class="fas fa-address-cardd"></i>involuntry change</a></li>
+            <li id="SCAirCanada"><a><i class="fas fa-map-pinn"></i>SC Air Canada</a></li>
+
+
+<br>
+<h1 id="FTCheader">FTC</h1>
+            <li id="getftc"><a><i class="fas fa-homee"></i>get ftc || eligable</a></li>
+            <li id="redeemftc"><a><i class="fas fa-userr"></i>redeem ftc</a></li>
+            <li id="redeemexpiredftc"><a><i class="fas fa-address-cardd"></i>redeem expired ftc</a></li>
+            <li><a id="unprepared yet"><i class="fas fa-project-diagramm"></i>unprepared yet</a></li>
+
+
+<br>
+<h1 id="refundheader">refund</h1>
+            <li id="VoluntryRefund"><a><i class="fas fa-blogg"></i>Voluntry Refund</a></li>       
+            <li id="INvoluntryRefundCHA"><a><i class="fas fa-address-bookk"></i>IN-voluntry refund (itinerary change)</a></li>
+            <li id="INvoluntryRefundCAN"><a><i class="fas fa-map-pinn"></i>IN-voluntry refund (itinerary canceled)</a></li>
+            <li id="refundCSA"><a><i class="fas fa-userr"></i>refund CSA</a></li>
+            <li id="refundcp"><a><i class="fas fa-address-cardd"></i>refund Cancellation protection</a></li>
+            <li id="refundmanulife"><a><i class="fas fa-project-diagramm"></i>refund manulife</a></li>
+            <li id="refundseatmapfee"><a><i class="fas fa-address-bookk"></i>refund seat map fee</a></li>
+            <li id="unprepared yet"><a><i class="fas fa-map-pinn"></i>unprepared yet</a></li>
+
+<br>
+<h1 id="PNRMODIFICATIONheader">PNR MODIFICATION</h1> 
+<li id="NameCorrection"><a><i class="fas fa-project-diagramm"></i>Name Correction</a></li>
+<li id="DOBCHANGE"><a><i class="fas fa-project-diagramm"></i>DOB Update</a></li>
+            <li><a href="#" id="unprepared yet"><i class="fas fa-address-cardd"></i>unprepared yet</a></li>
+            <li><a href="#" id="unprepared yet"><i class="fas fa-project-diagramm"></i>unprepared yet</a></li>
+
+
+<br>
+<h1 id="GeneralInquiresheader">General Inquires</h1>  
+
+            
+            <li id="SelectedSeats"><a><i class="fas fa-userr"></i>Selected Seats</a></li>
+            <li><a href="#" id="unprepared yet"><i class="fas fa-project-diagramm"></i>unprepared yet</a></li>
+            <li><a href="#" id="unprepared yet"><i class="fas fa-homee"></i>unprepared yet</a></li>
+            <li><a href="#" id="unprepared yet"><i class="fas fa-userr"></i>unprepared yet</a></li>
+            <li><a href="#" id="unprepared yet"><i class="fas fa-address-cardd"></i>unprepared yet</a></li>
+            <li><a href="#" id="unprepared yet"><i class="fas fa-project-diagramm"></i>unprepared yet</a></li>
+
+
+
+
+
+        </ul> 
+        <div class="social_mediaa">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+
+
+
+    <div class="main_content">
+        <div class="header" id="maincontentheader">Welcome!! Have a nice day.
+        	   
+<a class="headerlinks" href="https://reservations.voyagesalacarte.ca/booking/search" target="_blank">Respro</a>
+<a class="headerlinks" href="https://flighthubservice.zendesk.com/access/unauthenticated?return_to=https%3A%2F%2Fflighthubservice.zendesk.com%2Fusers%2F421756428772" target="_blank">Zendesk</a>
+<a class="headerlinks" href="https://www.sellingplatformconnect.amadeus.com/LoginService/login.jsp?SITE=LOGINURL&LANGUAGE=GB" target="_blank">Amadeus</a>
+<a class="headerlinks" href="https://tips.momentumtravel.com/article.php?id=584" target="_blank">Momentum travel</a>
+<a class="headerlinks" href="https://login-ca.calabriocloud.com/?realm=/bravo&goto=https%3A%2F%2Fid-ca.calabriocloud.com%3A443%2Fam%2Foauth2%2Fauthorize%3Fclient_id%3DcalabrioOne%26response_type%3Dcode%26scope%3Dopenid%2520email%2520calabrio%26redirect_uri%3Dhttps%3A%2F%2Fca.calabriocloud.com%26state%3Dignore%26realm%3D%2Fbravo%26enableWebMonitoring%3Dtrue#/" target="_blank">Calabrio One</a>
+
+
+<a class="headeremails" href="mailto:WFM@flairstech.com?&subject=Move Launch? 
+
+   &body=Dear Team,                
+
+Kindly need your Assist to Move launch                                 						
+ 
+  ">Move Launch</a>
+
+<a class="headeremails" href="mailto:WFM@flairstech.com?&subject=Move break 1? 
+
+   &body=Dear Team,                
+
+Kindly need your Assist to Move break 1                                 						
+ 
+  ">Move break 1</a>
+
+<a class="headeremails" href="mailto:WFM@flairstech.com?&subject=Move break 2? 
+
+   &body=Dear Team,                
+
+Kindly need your Assist to Move break 2                                 						
+ 
+  "> Move break 2 </a>   
+
+  
+
+
+
+        </div>
+
+
+
+
+
+
+
+<h1 id="guidancetext"></h1>
+
+
+<div id="alltemplatesbutoons">
+ 
+ <h1 id="sidetext1">Side Templates </h1>   <button id="Templateson"> ON </button>   <button id="Templatesoff">Off</button>
+
+<br>
+
+<h1 id="sidetext1">Buttons Control</h1> <button id="Readymadebuttonson"> ON </button>   <button id="Readymadebuttonsoff">Off</button>  
+     </div> 
+
+
+
+        		<div id="maindiv">
+<button id="beforezdbtn1">**New**</button>      <button id="beforezdbtn2">**Follow-Up**</button>        		
+<h2 class="cxinteraction" id="cxinteraction"></h2><br><textarea type="text" id="cxinteraction2" value=" " rows="4" cols="50" oninput='this.style.height = "";this.style.height = this.scrollHeight + "px"' onmouseover='this.style.height = "";this.style.height = this.scrollHeight + "px"' placeholder="customer interaction"></textarea>
+
+
+<h2 class="zdclass" id="maininptsheader">zd id: 
+</h2><br><textarea type="text" id="zdid" value=" " rows="4" cols="50" oninput='this.style.height = "";this.style.height = this.scrollHeight + "px"' onmouseover='this.style.height = "";this.style.height = this.scrollHeight + "px"' placeholder="zd id & customer interaction "></textarea>
+<br>
+<h2 id="maininptsheader"> ***** S ****  </h2><br> <textarea type="text" id="customerrequest" class="customerrequest" value="customerrequest" rows="4" cols="50" oninput='this.style.height = "";this.style.height = this.scrollHeight + "px"' onmouseover='this.style.height = "";this.style.height = this.scrollHeight + "px"' placeholder="Caller's name and What they are calling about"></textarea>
+
+
+<br>
+<h2 id="maininptsheader"> ***** A ****  <br>
+<button id="propositionbtn1">We can’t fulfill your request </button>    <button id="propositionbtn2"> send to executive team </button>   <button id="propositionbtn3"> request still pending </button>     <button id="propositionbtn5"> awaiting AL response </button>      <button id="propositionbtn6"> AL Took Control </button>    <button id="propositionbtn4"> Get FTC </button>        <button id="propositionbtn7"> change flight cost </button>    <button id="propositionbtn8"> breakdown of refund </button>   <button id="propositionbtn10"> partial refund breakdowm </button>  <button id="propositionbtn9"> NO REF/ CHG & FTC permitted </button> 
+</h2><br><textarea type="text" id="prpsion" value="proposition" rows="4" cols="50" oninput='this.style.height = "";this.style.height = this.scrollHeight + "px"' onmouseover='this.style.height = "";this.style.height = this.scrollHeight + "px"' placeholder="solutions offered and Expectation, Actions taken "></textarea>
+
+<br>
+
+
+<h2 id="maininptsheader"> **** O ****  <br>
+<button id="agreementbtn1">CX agreed</button>
+<button id="agreementbtn2">CX didn't agree</button>
+<button id="agreementbtn3">CX will call back</button>
+
+<button id="agreementbtn4">no action taken</button>  <button id="agreementbtn5">waiting for aft</button>       <button id="agreementbtn6">waiting for investigation team</button>    <button id="agreementbtn7">waiting for AL response</button>     <button id="agreementbtn8">waiting for supplier response</button>    <button id="agreementbtn9">waiting for Supervisor call</button>
+<button id="agreementbtn10">Tkt's Reissued</button>    <button id="agreementbtn11">Tkt's Refunded</button>    <button id="agreementbtn12">segments deleted</button>
+
+</h2><br><textarea type="text" id="agreement" value="agreement" rows="4" cols="50" oninput='this.style.height = "";this.style.height = this.scrollHeight + "px"' onmouseover='this.style.height = "";this.style.height = this.scrollHeight + "px"' placeholder="Outcome and Next steps"></textarea>
+
+
+
+
+<br>
+<div id="resultdiv">
+<br>
+<div id="resultbuttons">
+
+<br>
+
+<button id ="btnbtn4" class="btn btn4" value="Clear" onclick="javascript:eraseText();"> Clear <i class="fas fa-trash"></i> </button>
+<button id="resultbutton" onclick="changeTextarea()">COPY NOW</button>
+<div>
+
+<p id="copynotfication">Text Copied</p>
+<textarea readonly id="text-area-result" rows="4" cols="50" onmouseover='this.style.height = "";this.style.height = this.scrollHeight + "px"' onclick='this.style.height = "";this.style.height = this.scrollHeight + "px"'></textarea>
+
+
+<h1 id="identifyfilledinputs"></h1>
+<br>
+
+
+
+</div>
+  
+
+
+
+
+
+
+
+        
+      </div>
+    </div>
+</div>
+
+
+</body>
+
+
+<script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// start of result function/////////////////////////////////////////////////
+// start of result function/////////////////////////////////////////////////
+// start of result function/////////////////////////////////////////////////
+// start of result function/////////////////////////////////////////////////
+resultbutton.addEventListener("click", changeTextarea);
+ function changeTextarea() {
+  /* Select text area by id*/
+
+    var a = document.getElementById('zdid').value;
+ 
+    var b = document.getElementById('customerrequest').value;
+  
+    // var c = document.getElementById('farerules').value;
+
+    var d = document.getElementById('prpsion').value;
+
+    var e = document.getElementById('agreement').value;
+var i = document.getElementById('cxinteraction2').value;
+    // var f = document.getElementById('actiontaken').value;
+
+    // var g = document.getElementById('selectedsegments').value;
+
+    // var k = document.getElementById('nextsteps').value;
+
+    // var L = document.getElementById('additionalinformation').value;
+
+// set the result
+    var zz = document.getElementById('text-area-result');
+  zz.innerHTML = 
+  i+ 
+    "ZD id : " +  a + "\n" + "\n" +
+    "**S: "+ "\n       "+ b + "\n"+ "\n" +
+    "**A: " +"\n       " + d + "\n" + "\n" +
+    "**O: " +"\n       "+ e + "\n" + "\n" + "\n"
+    ;
+    // to copy we have to go with the below: 
+zz.select();
+document.execCommand("copy");
+
+/* Alert the copied text */
+
+
+document.getElementById("copynotfication").style.visibility = "visible";
+
+  /* Show the alert for only 1 sec */
+  setTimeout(() => {
+    document.getElementById("copynotfication").style.visibility = "hidden";
+  }, 1000);
+
+
+//  document.getElementById("identifyfilledinputs").value = a ;
+// document.getElementById("identifyfilledinputs").style.visibility = "visible";
+
+  // textarea.style.height = "1em";
+  // textarea.style.height = (25+element.scrollHeight)+"em";
+  // document.getElementById('text-area-result').style.height = (25+zz.scrollHeight)+"px";
+document.getElementById('text-area-result').style.height = (zz.scrollHeight)+"px";
+
+document.getElementById("btnbtn4").style.visibility = "visible";
+
+
+
+  }
+
+
+
+
+
+
+// start of eraseText function/////////////////////////////////////////////////
+// start of eraseText function////////////////////////////////////////////////
+// start of eraseText function/////////////////////////////////////////////////
+// start of eraseText function////////////////////////////////////////////////
+function eraseText() {
+
+    // location.reload();
+
+    // document.getElementById("text-area-result").value = "";
+                document.getElementById("zdid").value = "";
+                document.getElementById("customerrequest").value = "";
+                document.getElementById("prpsion").value = "";
+                document.getElementById("cxinteraction2").value = "";
+                document.getElementById("agreement").value = "";
+                document.getElementById("guidancetext").innerHTML = "";
+
+
+var b = document.getElementById('text-area-result');
+    b.innerHTML = " ";
+
+document.getElementById('text-area-result').style.height = "20em";
+document.getElementById('zdid').style.height = "6em";
+document.getElementById('customerrequest').style.height = "6em";
+document.getElementById('prpsion').style.height = "6em";
+document.getElementById('cxinteraction2').style.height = "4em";
+document.getElementById('agreement').style.height = "6em";
+
+
+
+
+
+document.getElementById('voidimplementedCA').style.backgroundColor='';
+document.getElementById('NONVoidableCA').style.backgroundColor='';
+document.getElementById('VoidWenrix').style.backgroundColor='';
+document.getElementById('SkipoptimizationWenrix').style.backgroundColor='';
+document.getElementById('voidtravelport').style.backgroundColor='';
+document.getElementById('voidtravelfusion').style.backgroundColor='';
+document.getElementById('voidkiwi').style.backgroundColor='';
+document.getElementById('didntgothrough').style.backgroundColor='';
+// Volunrtry Changes
+document.getElementById('CHANGETHEDEPATURE').style.backgroundColor='';
+document.getElementById('CHANGETHERETURN').style.backgroundColor='';
+document.getElementById('allnotpermitted').style.backgroundColor='';
+// IN-voluntary changes
+document.getElementById('involuntrychange').style.backgroundColor='';
+document.getElementById('SCAirCanada').style.backgroundColor='';
+// FTC
+document.getElementById('getftc').style.backgroundColor='';
+document.getElementById('redeemftc').style.backgroundColor='';
+document.getElementById('redeemexpiredftc').style.backgroundColor='';
+// Refund
+document.getElementById('VoluntryRefund').style.backgroundColor='';
+document.getElementById('INvoluntryRefundCHA').style.backgroundColor='';
+document.getElementById('INvoluntryRefundCAN').style.backgroundColor='';
+document.getElementById('refundCSA').style.backgroundColor='';
+document.getElementById('refundcp').style.backgroundColor='';
+document.getElementById('refundmanulife').style.backgroundColor='';
+document.getElementById('refundseatmapfee').style.backgroundColor='';
+// PNR MODIFICATION
+document.getElementById('NameCorrection').style.backgroundColor='';
+document.getElementById('DOBCHANGE').style.backgroundColor='';
+// General Inquires
+document.getElementById('SelectedSeats').style.backgroundColor='';
+
+
+
+
+
+
+document.getElementById('propositionbtn1').style.backgroundColor='';
+document.getElementById('propositionbtn2').style.backgroundColor='';
+document.getElementById('propositionbtn3').style.backgroundColor='';
+document.getElementById('propositionbtn4').style.backgroundColor='';
+document.getElementById('propositionbtn5').style.backgroundColor='';
+document.getElementById('propositionbtn6').style.backgroundColor='';
+document.getElementById('propositionbtn7').style.backgroundColor='';
+document.getElementById('propositionbtn8').style.backgroundColor='';
+document.getElementById('propositionbtn9').style.backgroundColor='';
+document.getElementById('propositionbtn10').style.backgroundColor='';
+
+
+document.getElementById('agreementbtn1').style.backgroundColor='';
+document.getElementById('agreementbtn2').style.backgroundColor='';
+document.getElementById('agreementbtn3').style.backgroundColor='';
+document.getElementById('agreementbtn4').style.backgroundColor='';
+document.getElementById('agreementbtn5').style.backgroundColor='';
+document.getElementById('agreementbtn6').style.backgroundColor='';
+document.getElementById('agreementbtn7').style.backgroundColor='';
+document.getElementById('agreementbtn8').style.backgroundColor='';
+document.getElementById('agreementbtn9').style.backgroundColor='';
+document.getElementById('agreementbtn10').style.backgroundColor='';
+document.getElementById('agreementbtn11').style.backgroundColor='';
+document.getElementById('agreementbtn12').style.backgroundColor='';
+
+document.getElementById('beforezdbtn1').style.backgroundColor='';
+document.getElementById('beforezdbtn2').style.backgroundColor='';
+
+
+              }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// ************************* side buttons *****************************************
+// ************************* side buttons *****************************************
+// ************************* side buttons *****************************************
+// ************************* side buttons *****************************************
+// ************************* side buttons *****************************************
+// ************************* side buttons *****************************************
+// ************************* side buttons *****************************************
+// ************************* side buttons *****************************************
+// ************************* side buttons *****************************************
+// ************************* side buttons *****************************************
+// ************************* side buttons *****************************************
+// ************************* side buttons *****************************************
+// ************************* side buttons *****************************************
+// ************************* side buttons *****************************************
+// ************************* side buttons *****************************************
+// ************************* side buttons *****************************************
+// ************************* side buttons *****************************************
+
+
+// // START OF BUTTON NUMBER ONE 1 whixh used in case of FUTURE CREDIT "FTC"
+
+const button = document.querySelector('voidimplementedCA');
+
+function greet() {
+  window.scrollTo({top: 0, behavior: 'smooth'});
+ // document.getElementById("zdid").value = " ";
+  document.getElementById("cxinteraction2").value = "**New**"+ "\n" +"";
+ document.getElementById("customerrequest").value = "-customer Asked To Void His Booking during the void Window ";
+ document.getElementById("prpsion").value = "- I've offered to move forward with the void after clarifying the void process as follows: "+ "\n" +"- Void process takes from 2-10 business days so the funds to be reflected again on the original CC "+ "\n" +"- Cancellation Email Sent To The Customer";
+ document.getElementById("agreement").value = "- Customer Agreed To proceed with Voiding The tkt's "+ "\n" +"- Tickets Voided .. Segments Deleted "+ "\n" +"- no further steps are needed";
+
+
+
+
+
+
+document.getElementById('voidimplementedCA').style.backgroundColor='gray';
+document.getElementById('NONVoidableCA').style.backgroundColor='';
+document.getElementById('VoidWenrix').style.backgroundColor='';
+document.getElementById('SkipoptimizationWenrix').style.backgroundColor='';
+document.getElementById('voidtravelport').style.backgroundColor='';
+document.getElementById('voidtravelfusion').style.backgroundColor='';
+document.getElementById('voidkiwi').style.backgroundColor='';
+document.getElementById('didntgothrough').style.backgroundColor='';
+// Volunrtry Changes
+document.getElementById('CHANGETHEDEPATURE').style.backgroundColor='';
+document.getElementById('CHANGETHERETURN').style.backgroundColor='';
+document.getElementById('allnotpermitted').style.backgroundColor='';
+// IN-voluntary changes
+document.getElementById('involuntrychange').style.backgroundColor='';
+document.getElementById('SCAirCanada').style.backgroundColor='';
+// FTC
+document.getElementById('getftc').style.backgroundColor='';
+document.getElementById('redeemftc').style.backgroundColor='';
+document.getElementById('redeemexpiredftc').style.backgroundColor='';
+// Refund
+document.getElementById('VoluntryRefund').style.backgroundColor='';
+document.getElementById('INvoluntryRefundCHA').style.backgroundColor='';
+document.getElementById('INvoluntryRefundCAN').style.backgroundColor='';
+document.getElementById('refundCSA').style.backgroundColor='';
+document.getElementById('refundcp').style.backgroundColor='';
+document.getElementById('refundmanulife').style.backgroundColor='';
+document.getElementById('refundseatmapfee').style.backgroundColor='';
+// PNR MODIFICATION
+document.getElementById('NameCorrection').style.backgroundColor='';
+document.getElementById('DOBCHANGE').style.backgroundColor='';
+// General Inquires
+document.getElementById('SelectedSeats').style.backgroundColor='';
+
+
+
+
+
+
+document.getElementById("guidancetext").innerHTML ="*this template can be used just in case you've voided the booking already "+ "\n" +"*2-We've to make sure to void MCO if you found split payments"+ "\n" +"*3-If the validating carrier is WestJet and the departure is within 24 hours, the ticket is non-voidable " +"<br>"+"";
+}
+
+voidimplementedCA.addEventListener('click', greet);
+
+
+// voidimplementedCA.addEventListener('click', function onClick() {
+//   voidimplementedCA.style.backgroundColor = 'salmon';
+//   voidimplementedCA.style.color = 'white';
+// });
+
+
+
+
+
+// // END OF BUTTON NUMBER ONE 1
+// // END OF BUTTON NUMBER ONE 1
+// // END OF BUTTON NUMBER ONE 1
+// // START OF BUTTON NUMBER ONE 1 whixh used in case of ............
+
+
+const button2 = document.querySelector('NONVoidableCA');
+
+function greet2() {
+  window.scrollTo({top: 0, behavior: 'smooth'});
+ // document.getElementById("zdid").value = " ";
+  document.getElementById("cxinteraction2").value = "**New**"+ "\n" +"";
+ document.getElementById("customerrequest").value = "-I've explained to the customer that his request did not meet the identified terms & conditions for the void process ";
+ document.getElementById("prpsion").value = " we will not be able to implement his request ";
+ document.getElementById("agreement").value = "- YES Customer Agreed "+ "\n" +"- No Action Has Been Taken"+ "\n" +"- No Further Steps Are Needed";
+
+
+
+
+document.getElementById('voidimplementedCA').style.backgroundColor='';
+document.getElementById('NONVoidableCA').style.backgroundColor='gray';
+document.getElementById('VoidWenrix').style.backgroundColor='';
+document.getElementById('SkipoptimizationWenrix').style.backgroundColor='';
+document.getElementById('voidtravelport').style.backgroundColor='';
+document.getElementById('voidtravelfusion').style.backgroundColor='';
+document.getElementById('voidkiwi').style.backgroundColor='';
+document.getElementById('didntgothrough').style.backgroundColor='';
+// Volunrtry Changes
+document.getElementById('CHANGETHEDEPATURE').style.backgroundColor='';
+document.getElementById('CHANGETHERETURN').style.backgroundColor='';
+document.getElementById('allnotpermitted').style.backgroundColor='';
+// IN-voluntary changes
+document.getElementById('involuntrychange').style.backgroundColor='';
+document.getElementById('SCAirCanada').style.backgroundColor='';
+// FTC
+document.getElementById('getftc').style.backgroundColor='';
+document.getElementById('redeemftc').style.backgroundColor='';
+document.getElementById('redeemexpiredftc').style.backgroundColor='';
+// Refund
+document.getElementById('VoluntryRefund').style.backgroundColor='';
+document.getElementById('INvoluntryRefundCHA').style.backgroundColor='';
+document.getElementById('INvoluntryRefundCAN').style.backgroundColor='';
+document.getElementById('refundCSA').style.backgroundColor='';
+document.getElementById('refundcp').style.backgroundColor='';
+document.getElementById('refundmanulife').style.backgroundColor='';
+document.getElementById('refundseatmapfee').style.backgroundColor='';
+// PNR MODIFICATION
+document.getElementById('NameCorrection').style.backgroundColor='';
+document.getElementById('DOBCHANGE').style.backgroundColor='';
+// General Inquires
+document.getElementById('SelectedSeats').style.backgroundColor='';
+
+
+
+
+
+
+
+document.getElementById("guidancetext").innerHTML ="" ;
+// document.getElementById("NONVoidableCA").style.color = "red";
+}
+
+NONVoidableCA.addEventListener('click', greet2);
+
+
+// // END OF BUTTON NUMBER ONE 2
+// // END OF BUTTON NUMBER ONE 2
+// // END OF BUTTON NUMBER ONE 2
+
+
+
+
+
+// // END OF BUTTON NUMBER ONE 3
+// // END OF BUTTON NUMBER ONE 3
+// // END OF BUTTON NUMBER ONE 3
+
+
+
+
+// // END OF BUTTON NUMBER ONE 4
+// // END OF BUTTON NUMBER ONE 4
+// // END OF BUTTON NUMBER ONE 4
+
+
+const button5 = document.querySelector('VoidWenrix');
+
+function greet5() {
+  window.scrollTo({top: 0, behavior: 'smooth'});
+ // document.getElementById("zdid").value = " ";
+  document.getElementById("cxinteraction2").value = "**New**"+ "\n" +"";
+ document.getElementById("customerrequest").value = "- Customer Asked to Cancel His booking which is still in progress (Wenrix)  ";
+ document.getElementById("prpsion").value = " -I've offered to move forward with aborting the booking after clarifying the void process as follows: "+ "\n" + "- Any charged amount should be reflected on the original credit card within 2-10 business days.";
+ document.getElementById("agreement").value = "-Customer Agreed To proceed with Voiding The Booking which is still in progress "+ "\n" +"- Booking Aborted From The Tasks Tree.. Segments Deleted"+ "\n" +"- Cancellation Email Sent To The Customer"+"\n"+"- No further steps are needed";
+
+
+
+document.getElementById('voidimplementedCA').style.backgroundColor='';
+document.getElementById('NONVoidableCA').style.backgroundColor='';
+document.getElementById('VoidWenrix').style.backgroundColor='gray';
+document.getElementById('SkipoptimizationWenrix').style.backgroundColor='';
+document.getElementById('voidtravelport').style.backgroundColor='';
+document.getElementById('voidtravelfusion').style.backgroundColor='';
+document.getElementById('voidkiwi').style.backgroundColor='';
+document.getElementById('didntgothrough').style.backgroundColor='';
+// Volunrtry Changes
+document.getElementById('CHANGETHEDEPATURE').style.backgroundColor='';
+document.getElementById('CHANGETHERETURN').style.backgroundColor='';
+document.getElementById('allnotpermitted').style.backgroundColor='';
+// IN-voluntary changes
+document.getElementById('involuntrychange').style.backgroundColor='';
+document.getElementById('SCAirCanada').style.backgroundColor='';
+// FTC
+document.getElementById('getftc').style.backgroundColor='';
+document.getElementById('redeemftc').style.backgroundColor='';
+document.getElementById('redeemexpiredftc').style.backgroundColor='';
+// Refund
+document.getElementById('VoluntryRefund').style.backgroundColor='';
+document.getElementById('INvoluntryRefundCHA').style.backgroundColor='';
+document.getElementById('INvoluntryRefundCAN').style.backgroundColor='';
+document.getElementById('refundCSA').style.backgroundColor='';
+document.getElementById('refundcp').style.backgroundColor='';
+document.getElementById('refundmanulife').style.backgroundColor='';
+document.getElementById('refundseatmapfee').style.backgroundColor='';
+// PNR MODIFICATION
+document.getElementById('NameCorrection').style.backgroundColor='';
+document.getElementById('DOBCHANGE').style.backgroundColor='';
+// General Inquires
+document.getElementById('SelectedSeats').style.backgroundColor='';
+
+
+
+
+
+document.getElementById("guidancetext").innerHTML ="" ;
+
+}
+
+VoidWenrix.addEventListener('click', greet5);
+
+
+
+// // END OF BUTTON NUMBER ONE 5  
+// // END OF BUTTON NUMBER ONE 5
+// // END OF BUTTON NUMBER ONE 5
+//SkipoptimizationWenrix
+
+
+const button5a = document.querySelector('SkipoptimizationWenrix');
+
+function greet5a() {
+  window.scrollTo({top: 0, behavior: 'smooth'});
+ // document.getElementById("zdid").value = " ";
+  document.getElementById("cxinteraction2").value = "**New**"+ "\n" +"";
+ document.getElementById("customerrequest").value = "- Customer Asked to Cancel His booking which is still in progress (Wenrix)  ";
+ document.getElementById("prpsion").value = " -I've offered to move forward with aborting the booking after clarifying the void process as follows: "+ "\n" + "Any Charged Amount Should be Reflected Again On The original CC from 2-10 business days";
+ document.getElementById("agreement").value = "-Customer Agreed To proceed with Voiding The Booking which is still in progress "+ "\n" +"- Booking Aborted From The Tasks Tree.. Segments Deleted automatically"+ "\n" +"- Cancellation Email Sent To The Customer"+"\n"+"- No further steps are needed";
+
+
+
+document.getElementById('voidimplementedCA').style.backgroundColor='';
+document.getElementById('NONVoidableCA').style.backgroundColor='';
+document.getElementById('VoidWenrix').style.backgroundColor='';
+document.getElementById('SkipoptimizationWenrix').style.backgroundColor='gray';
+document.getElementById('voidtravelport').style.backgroundColor='';
+document.getElementById('voidtravelfusion').style.backgroundColor='';
+document.getElementById('voidkiwi').style.backgroundColor='';
+document.getElementById('didntgothrough').style.backgroundColor='';
+// Volunrtry Changes
+document.getElementById('CHANGETHEDEPATURE').style.backgroundColor='';
+document.getElementById('CHANGETHERETURN').style.backgroundColor='';
+document.getElementById('allnotpermitted').style.backgroundColor='';
+// IN-voluntary changes
+document.getElementById('involuntrychange').style.backgroundColor='';
+document.getElementById('SCAirCanada').style.backgroundColor='';
+// FTC
+document.getElementById('getftc').style.backgroundColor='';
+document.getElementById('redeemftc').style.backgroundColor='';
+document.getElementById('redeemexpiredftc').style.backgroundColor='';
+// Refund
+document.getElementById('VoluntryRefund').style.backgroundColor='';
+document.getElementById('INvoluntryRefundCHA').style.backgroundColor='';
+document.getElementById('INvoluntryRefundCAN').style.backgroundColor='';
+document.getElementById('refundCSA').style.backgroundColor='';
+document.getElementById('refundcp').style.backgroundColor='';
+document.getElementById('refundmanulife').style.backgroundColor='';
+document.getElementById('refundseatmapfee').style.backgroundColor='';
+// PNR MODIFICATION
+document.getElementById('NameCorrection').style.backgroundColor='';
+document.getElementById('DOBCHANGE').style.backgroundColor='';
+// General Inquires
+document.getElementById('SelectedSeats').style.backgroundColor='';
+
+
+
+
+
+document.getElementById("guidancetext").innerHTML ="" ;
+
+}
+
+SkipoptimizationWenrix.addEventListener('click', greet5a);
+
+
+
+// // END OF BUTTON NUMBER ONE 5+ 
+// // END OF BUTTON NUMBER ONE 5+
+// // END OF BUTTON NUMBER ONE 5+
+
+const button6 = document.querySelector('voidtravelport');
+
+function greet6() {
+  window.scrollTo({top: 0, behavior: 'smooth'});
+ // document.getElementById("zdid").value = " ";
+   document.getElementById("cxinteraction2").value = "**New**"+ "\n" +"";
+ document.getElementById("customerrequest").value = "  customer asked to Void His booking (TravelPort) ";
+document.getElementById("prpsion").value = "  i've informed the customer that I've summited the void-request to our executive team so that action can be taken from their end after clarifying the void process as follows: " + "\n" + "Void process takes from 2-10 business days so the funds to be reflected again on the original CC";
+ document.getElementById("agreement").value = "YES Customer Agreed "+ "\n" +" " + " " + " no action has been taken as i have no access"  + "\n" + " *waiting for the executive team to proceed with voiding the booking ";
+
+
+
+document.getElementById('voidimplementedCA').style.backgroundColor='';
+document.getElementById('NONVoidableCA').style.backgroundColor='';
+document.getElementById('VoidWenrix').style.backgroundColor='';
+document.getElementById('SkipoptimizationWenrix').style.backgroundColor='';
+document.getElementById('voidtravelport').style.backgroundColor='gray';
+document.getElementById('voidtravelfusion').style.backgroundColor='';
+document.getElementById('voidkiwi').style.backgroundColor='';
+document.getElementById('didntgothrough').style.backgroundColor='';
+// Volunrtry Changes
+document.getElementById('CHANGETHEDEPATURE').style.backgroundColor='';
+document.getElementById('CHANGETHERETURN').style.backgroundColor='';
+document.getElementById('allnotpermitted').style.backgroundColor='';
+// IN-voluntary changes
+document.getElementById('involuntrychange').style.backgroundColor='';
+document.getElementById('SCAirCanada').style.backgroundColor='';
+// FTC
+document.getElementById('getftc').style.backgroundColor='';
+document.getElementById('redeemftc').style.backgroundColor='';
+document.getElementById('redeemexpiredftc').style.backgroundColor='';
+// Refund
+document.getElementById('VoluntryRefund').style.backgroundColor='';
+document.getElementById('INvoluntryRefundCHA').style.backgroundColor='';
+document.getElementById('INvoluntryRefundCAN').style.backgroundColor='';
+document.getElementById('refundCSA').style.backgroundColor='';
+document.getElementById('refundcp').style.backgroundColor='';
+document.getElementById('refundmanulife').style.backgroundColor='';
+document.getElementById('refundseatmapfee').style.backgroundColor='';
+// PNR MODIFICATION
+document.getElementById('NameCorrection').style.backgroundColor='';
+document.getElementById('DOBCHANGE').style.backgroundColor='';
+// General Inquires
+document.getElementById('SelectedSeats').style.backgroundColor='';
+
+
+
+
+
+
+
+
+document.getElementById("guidancetext").innerHTML ="" ;
+
+}
+
+voidtravelport.addEventListener('click', greet6);
+
+
+// // END OF BUTTON NUMBER ONE 6
+// // END OF BUTTON NUMBER ONE 6
+// // END OF BUTTON NUMBER ONE 6
+
+
+const button7 = document.querySelector('voidtravelfusion');
+
+function greet7() {
+  window.scrollTo({top: 0, behavior: 'smooth'});
+ // document.getElementById("zdid").value = " ";
+    document.getElementById("cxinteraction2").value = "**New**"+ "\n" +"";
+ document.getElementById("customerrequest").value = "  customer asked to Void His booking (travelfusion) ";
+ document.getElementById("prpsion").value = "I've informed the customer that we’ll not be able to implement his request as we don’t have access over the reservation and he has to contact the airline as they have access individually ";
+ document.getElementById("agreement").value = "YES Customer Agreed "+ "\n" +  " no action has been taken as we have no access";
+
+
+
+document.getElementById('voidimplementedCA').style.backgroundColor='';
+document.getElementById('NONVoidableCA').style.backgroundColor='';
+document.getElementById('VoidWenrix').style.backgroundColor='';
+document.getElementById('SkipoptimizationWenrix').style.backgroundColor='';
+document.getElementById('voidtravelport').style.backgroundColor='';
+document.getElementById('voidtravelfusion').style.backgroundColor='gray';
+document.getElementById('voidkiwi').style.backgroundColor='';
+document.getElementById('didntgothrough').style.backgroundColor='';
+// Volunrtry Changes
+document.getElementById('CHANGETHEDEPATURE').style.backgroundColor='';
+document.getElementById('CHANGETHERETURN').style.backgroundColor='';
+document.getElementById('allnotpermitted').style.backgroundColor='';
+// IN-voluntary changes
+document.getElementById('involuntrychange').style.backgroundColor='';
+document.getElementById('SCAirCanada').style.backgroundColor='';
+// FTC
+document.getElementById('getftc').style.backgroundColor='';
+document.getElementById('redeemftc').style.backgroundColor='';
+document.getElementById('redeemexpiredftc').style.backgroundColor='';
+// Refund
+document.getElementById('VoluntryRefund').style.backgroundColor='';
+document.getElementById('INvoluntryRefundCHA').style.backgroundColor='';
+document.getElementById('INvoluntryRefundCAN').style.backgroundColor='';
+document.getElementById('refundCSA').style.backgroundColor='';
+document.getElementById('refundcp').style.backgroundColor='';
+document.getElementById('refundmanulife').style.backgroundColor='';
+document.getElementById('refundseatmapfee').style.backgroundColor='';
+// PNR MODIFICATION
+document.getElementById('NameCorrection').style.backgroundColor='';
+document.getElementById('DOBCHANGE').style.backgroundColor='';
+// General Inquires
+document.getElementById('SelectedSeats').style.backgroundColor='';
+
+
+
+
+
+
+document.getElementById("guidancetext").innerHTML ="" ;
+
+}
+
+voidtravelfusion.addEventListener('click', greet7);
+
+
+// // END OF BUTTON NUMBER ONE 8
+// // END OF BUTTON NUMBER ONE 8
+// // END OF BUTTON NUMBER ONE 8
+
+
+const button8 = document.querySelector('voidkiwi');
+
+function greet8() {
+  window.scrollTo({top: 0, behavior: 'smooth'});
+// document.getElementById("zdid").value = " ";
+   document.getElementById("cxinteraction2").value = "**New**"+ "\n" +"";
+ document.getElementById("customerrequest").value = "  customer asked to Void His booking (Kiwi Booking) ";
+ document.getElementById("prpsion").value = "I've informed the customer that we’ll not be able to implement his request as we don’t have access over the reservation and he has to contact the airline as they have access individually ";
+ document.getElementById("agreement").value = "YES Customer Agreed "+ "\n" +  " no action has been taken as we have no access";
+
+
+
+document.getElementById('voidimplementedCA').style.backgroundColor='';
+document.getElementById('NONVoidableCA').style.backgroundColor='';
+document.getElementById('VoidWenrix').style.backgroundColor='';
+document.getElementById('SkipoptimizationWenrix').style.backgroundColor='';
+document.getElementById('voidtravelport').style.backgroundColor='';
+document.getElementById('voidtravelfusion').style.backgroundColor='';
+document.getElementById('voidkiwi').style.backgroundColor='gray';
+document.getElementById('didntgothrough').style.backgroundColor='';
+// Volunrtry Changes
+document.getElementById('CHANGETHEDEPATURE').style.backgroundColor='';
+document.getElementById('CHANGETHERETURN').style.backgroundColor='';
+document.getElementById('allnotpermitted').style.backgroundColor='';
+// IN-voluntary changes
+document.getElementById('involuntrychange').style.backgroundColor='';
+document.getElementById('SCAirCanada').style.backgroundColor='';
+// FTC
+document.getElementById('getftc').style.backgroundColor='';
+document.getElementById('redeemftc').style.backgroundColor='';
+document.getElementById('redeemexpiredftc').style.backgroundColor='';
+// Refund
+document.getElementById('VoluntryRefund').style.backgroundColor='';
+document.getElementById('INvoluntryRefundCHA').style.backgroundColor='';
+document.getElementById('INvoluntryRefundCAN').style.backgroundColor='';
+document.getElementById('refundCSA').style.backgroundColor='';
+document.getElementById('refundcp').style.backgroundColor='';
+document.getElementById('refundmanulife').style.backgroundColor='';
+document.getElementById('refundseatmapfee').style.backgroundColor='';
+// PNR MODIFICATION
+document.getElementById('NameCorrection').style.backgroundColor='';
+document.getElementById('DOBCHANGE').style.backgroundColor='';
+// General Inquires
+document.getElementById('SelectedSeats').style.backgroundColor='';
+
+
+
+
+
+
+
+document.getElementById("guidancetext").innerHTML ="" ;
+
+}
+
+voidkiwi.addEventListener('click', greet8);
+
+
+// // END OF BUTTON NUMBER ONE 8
+// // END OF BUTTON NUMBER ONE 8
+// // END OF BUTTON NUMBER ONE 8
+// // END OF BUTTON NUMBER ONE 8
+// // END OF BUTTON NUMBER ONE 8
+// // END OF BUTTON NUMBER ONE 8
+
+
+const button9 = document.querySelector('CHANGETHEDEPATURE');
+
+function greet9() {
+  window.scrollTo({top: 0, behavior: 'smooth'});
+// document.getElementById("zdid").value = " ";
+   document.getElementById("cxinteraction2").value = "";
+ document.getElementById("customerrequest").value = "the Customer Called to change the departure flight (Voluntary Change)";
+document.getElementById("prpsion").value = "";
+ document.getElementById("agreement").value = "";
+
+
+document.getElementById('voidimplementedCA').style.backgroundColor='';
+document.getElementById('NONVoidableCA').style.backgroundColor='';
+document.getElementById('VoidWenrix').style.backgroundColor='';
+document.getElementById('SkipoptimizationWenrix').style.backgroundColor='';
+document.getElementById('voidtravelport').style.backgroundColor='';
+document.getElementById('voidtravelfusion').style.backgroundColor='';
+document.getElementById('voidkiwi').style.backgroundColor='';
+document.getElementById('didntgothrough').style.backgroundColor='';
+// Volunrtry Changes
+document.getElementById('CHANGETHEDEPATURE').style.backgroundColor='gray';
+document.getElementById('CHANGETHERETURN').style.backgroundColor='';
+document.getElementById('allnotpermitted').style.backgroundColor='';
+// IN-voluntary changes
+document.getElementById('involuntrychange').style.backgroundColor='';
+document.getElementById('SCAirCanada').style.backgroundColor='';
+// FTC
+document.getElementById('getftc').style.backgroundColor='';
+document.getElementById('redeemftc').style.backgroundColor='';
+document.getElementById('redeemexpiredftc').style.backgroundColor='';
+// Refund
+document.getElementById('VoluntryRefund').style.backgroundColor='';
+document.getElementById('INvoluntryRefundCHA').style.backgroundColor='';
+document.getElementById('INvoluntryRefundCAN').style.backgroundColor='';
+document.getElementById('refundCSA').style.backgroundColor='';
+document.getElementById('refundcp').style.backgroundColor='';
+document.getElementById('refundmanulife').style.backgroundColor='';
+document.getElementById('refundseatmapfee').style.backgroundColor='';
+// PNR MODIFICATION
+document.getElementById('NameCorrection').style.backgroundColor='';
+document.getElementById('DOBCHANGE').style.backgroundColor='';
+// General Inquires
+document.getElementById('SelectedSeats').style.backgroundColor='';
+
+
+
+
+document.getElementById("guidancetext").innerHTML ="we can check the Airlines Agreement by using the below command TGAD-AL 1/AL 2 EX:(TGAD-BA/IB) " ;
+
+
+}
+
+CHANGETHEDEPATURE.addEventListener('click', greet9);
+
+
+
+// // END OF BUTTON NUMBER ONE 9
+// // END OF BUTTON NUMBER ONE 9
+// // END OF BUTTON NUMBER ONE 9
+// // END OF BUTTON NUMBER ONE 9
+// // END OF BUTTON NUMBER ONE 9
+// // END OF BUTTON NUMBER ONE 9
+
+// const button10 = document.querySelector('CHANGETHERETURN');
+
+function greet10() {
+  window.scrollTo({top: 0, behavior: 'smooth'});
+// document.getElementById("zdid").value = " ";
+   document.getElementById("cxinteraction2").value = "";
+ document.getElementById("customerrequest").value = "Customer Called to change the coming back flight (voluntary Change) ";
+document.getElementById("prpsion").value = "";
+ document.getElementById("agreement").value = "";
+
+
+
+document.getElementById('voidimplementedCA').style.backgroundColor='';
+document.getElementById('NONVoidableCA').style.backgroundColor='';
+document.getElementById('VoidWenrix').style.backgroundColor='';
+document.getElementById('SkipoptimizationWenrix').style.backgroundColor='';
+document.getElementById('voidtravelport').style.backgroundColor='';
+document.getElementById('voidtravelfusion').style.backgroundColor='';
+document.getElementById('voidkiwi').style.backgroundColor='';
+document.getElementById('didntgothrough').style.backgroundColor='';
+// Volunrtry Changes
+document.getElementById('CHANGETHEDEPATURE').style.backgroundColor='';
+document.getElementById('CHANGETHERETURN').style.backgroundColor='gray';
+document.getElementById('allnotpermitted').style.backgroundColor='';
+// IN-voluntary changes
+document.getElementById('involuntrychange').style.backgroundColor='';
+document.getElementById('SCAirCanada').style.backgroundColor='';
+// FTC
+document.getElementById('getftc').style.backgroundColor='';
+document.getElementById('redeemftc').style.backgroundColor='';
+document.getElementById('redeemexpiredftc').style.backgroundColor='';
+// Refund
+document.getElementById('VoluntryRefund').style.backgroundColor='';
+document.getElementById('INvoluntryRefundCHA').style.backgroundColor='';
+document.getElementById('INvoluntryRefundCAN').style.backgroundColor='';
+document.getElementById('refundCSA').style.backgroundColor='';
+document.getElementById('refundcp').style.backgroundColor='';
+document.getElementById('refundmanulife').style.backgroundColor='';
+document.getElementById('refundseatmapfee').style.backgroundColor='';
+// PNR MODIFICATION
+document.getElementById('NameCorrection').style.backgroundColor='';
+document.getElementById('DOBCHANGE').style.backgroundColor='';
+// General Inquires
+document.getElementById('SelectedSeats').style.backgroundColor='';
+
+
+
+
+
+
+document.getElementById("guidancetext").innerHTML ="we can check the Airlines Agreement by using the below command TGAD-AL 1/AL 2 EX:(TGAD-BA/IB)" ;
+
+
+}
+
+CHANGETHERETURN.addEventListener('click', greet10);
+
+
+// // END OF BUTTON NUMBER ONE 10
+// // END OF BUTTON NUMBER ONE 10
+// // END OF BUTTON NUMBER ONE 10
+// // END OF BUTTON NUMBER ONE 10
+// // END OF BUTTON NUMBER ONE 10
+// // END OF BUTTON NUMBER ONE 10
+
+
+const button23 = document.querySelector('allnotpermitted');
+
+function greet23() {
+  window.scrollTo({top: 0, behavior: 'smooth'});
+// document.getElementById("zdid").value = " ";
+   document.getElementById("cxinteraction2").value = "";
+ document.getElementById("customerrequest").value = "The customer Asked to change his flight (Voluntary Change) ";
+document.getElementById("prpsion").value = "i've explained to the customer that his ticket is non-changeable in addition it's non refundable according to the airline fare rules";
+ document.getElementById("agreement").value = "";
+
+
+document.getElementById('voidimplementedCA').style.backgroundColor='';
+document.getElementById('NONVoidableCA').style.backgroundColor='';
+document.getElementById('VoidWenrix').style.backgroundColor='';
+document.getElementById('SkipoptimizationWenrix').style.backgroundColor='';
+document.getElementById('voidtravelport').style.backgroundColor='';
+document.getElementById('voidtravelfusion').style.backgroundColor='';
+document.getElementById('voidkiwi').style.backgroundColor='';
+document.getElementById('didntgothrough').style.backgroundColor='';
+// Volunrtry Changes
+document.getElementById('CHANGETHEDEPATURE').style.backgroundColor='';
+document.getElementById('CHANGETHERETURN').style.backgroundColor='';
+document.getElementById('allnotpermitted').style.backgroundColor='gray';
+// IN-voluntary changes
+document.getElementById('involuntrychange').style.backgroundColor='';
+document.getElementById('SCAirCanada').style.backgroundColor='';
+// FTC
+document.getElementById('getftc').style.backgroundColor='';
+document.getElementById('redeemftc').style.backgroundColor='';
+document.getElementById('redeemexpiredftc').style.backgroundColor='';
+// Refund
+document.getElementById('VoluntryRefund').style.backgroundColor='';
+document.getElementById('INvoluntryRefundCHA').style.backgroundColor='';
+document.getElementById('INvoluntryRefundCAN').style.backgroundColor='';
+document.getElementById('refundCSA').style.backgroundColor='';
+document.getElementById('refundcp').style.backgroundColor='';
+document.getElementById('refundmanulife').style.backgroundColor='';
+document.getElementById('refundseatmapfee').style.backgroundColor='';
+// PNR MODIFICATION
+document.getElementById('NameCorrection').style.backgroundColor='';
+document.getElementById('DOBCHANGE').style.backgroundColor='';
+// General Inquires
+document.getElementById('SelectedSeats').style.backgroundColor='';
+
+
+
+
+
+
+document.getElementById("guidancetext").innerHTML ="" ;
+
+
+}
+
+allnotpermitted.addEventListener('click', greet23);
+
+
+
+
+
+// // END OF BUTTON NUMBER ONE 10
+// // END OF BUTTON NUMBER ONE 10
+// // END OF BUTTON NUMBER ONE 10
+// // END OF BUTTON NUMBER ONE 10
+// // END OF BUTTON NUMBER ONE 10
+// // END OF BUTTON NUMBER ONE 10
+
+
+const button18 = document.querySelector('involuntrychange');
+
+function greet18() {
+  window.scrollTo({top: 0, behavior: 'smooth'});
+// document.getElementById("zdid").value = " ";
+   document.getElementById("cxinteraction2").value = "";
+ document.getElementById("customerrequest").value = "The customer Called to reschedule his flight (Involuntary Change)  ";
+document.getElementById("prpsion").value = "";
+ document.getElementById("agreement").value = "";
+
+
+
+
+document.getElementById('voidimplementedCA').style.backgroundColor='';
+document.getElementById('NONVoidableCA').style.backgroundColor='';
+document.getElementById('VoidWenrix').style.backgroundColor='';
+document.getElementById('SkipoptimizationWenrix').style.backgroundColor='';
+document.getElementById('voidtravelport').style.backgroundColor='';
+document.getElementById('voidtravelfusion').style.backgroundColor='';
+document.getElementById('voidkiwi').style.backgroundColor='';
+document.getElementById('didntgothrough').style.backgroundColor='';
+// Volunrtry Changes
+document.getElementById('CHANGETHEDEPATURE').style.backgroundColor='';
+document.getElementById('CHANGETHERETURN').style.backgroundColor='';
+document.getElementById('allnotpermitted').style.backgroundColor='';
+// IN-voluntary changes
+document.getElementById('involuntrychange').style.backgroundColor='gray';
+document.getElementById('SCAirCanada').style.backgroundColor='';
+// FTC
+document.getElementById('getftc').style.backgroundColor='';
+document.getElementById('redeemftc').style.backgroundColor='';
+document.getElementById('redeemexpiredftc').style.backgroundColor='';
+// Refund
+document.getElementById('VoluntryRefund').style.backgroundColor='';
+document.getElementById('INvoluntryRefundCHA').style.backgroundColor='';
+document.getElementById('INvoluntryRefundCAN').style.backgroundColor='';
+document.getElementById('refundCSA').style.backgroundColor='';
+document.getElementById('refundcp').style.backgroundColor='';
+document.getElementById('refundmanulife').style.backgroundColor='';
+document.getElementById('refundseatmapfee').style.backgroundColor='';
+// PNR MODIFICATION
+document.getElementById('NameCorrection').style.backgroundColor='';
+document.getElementById('DOBCHANGE').style.backgroundColor='';
+// General Inquires
+document.getElementById('SelectedSeats').style.backgroundColor='';
+
+
+
+
+
+
+document.getElementById("guidancetext").innerHTML ="we can check the Airlines Agreement by using the below command TGAD-AL 1/AL 2 EX:(TGAD-BA/IB)" ;
+
+
+}
+
+involuntrychange.addEventListener('click', greet18);
+
+
+// // END OF BUTTON NUMBER ONE 11
+// // END OF BUTTON NUMBER ONE 11
+// // END OF BUTTON NUMBER ONE 11
+// // END OF BUTTON NUMBER ONE 11
+// // END OF BUTTON NUMBER ONE 11
+// // END OF BUTTON NUMBER ONE 11
+
+
+const button19 = document.querySelector('getftc');
+
+function greet19() {
+  window.scrollTo({top: 0, behavior: 'smooth'});
+// document.getElementById("zdid").value = " ";
+   document.getElementById("cxinteraction2").value = "";
+ document.getElementById("customerrequest").value = "Customer Asked to Cancel his flight in order to get future credit";
+document.getElementById("prpsion").value = "i've offered to cancel the current segments in order to proceed with getting a future credit after clarifying the general future credit policy which is :"+"\n" +"\n" +
+"1- All tickets must be issued by the same airline "+"\n" +
+"2- The original ticket value is valid based on the fare-rules issued by the airline (so any penalties will be applied According to the fare rules) "+"\n" +
+"In addition the airline must charge the difference between the original flight price that you paid and the current price of the flights that the customer is looking to book"+"\n"+"\n"+
+"3- The credit amount is per individual ticket value and can only be used by the same passengers and on the same airline as the original booking."+"\n" +
+"4- it usually has to the same origin and the same destination as There may be limitations to the flight routing that this credit can be applied to."+"\n" +
+"5- Unused credit after the validity period of the ticket will be forfeited and usually it will be one year from the date of issuance "+"\n" +"(so travel must be completed before the ticket expiry-date)";
+ document.getElementById("agreement").value = "";
+
+
+
+document.getElementById('voidimplementedCA').style.backgroundColor='';
+document.getElementById('NONVoidableCA').style.backgroundColor='';
+document.getElementById('VoidWenrix').style.backgroundColor='';
+document.getElementById('SkipoptimizationWenrix').style.backgroundColor='';
+document.getElementById('voidtravelport').style.backgroundColor='';
+document.getElementById('voidtravelfusion').style.backgroundColor='';
+document.getElementById('voidkiwi').style.backgroundColor='';
+document.getElementById('didntgothrough').style.backgroundColor='';
+// Volunrtry Changes
+document.getElementById('CHANGETHEDEPATURE').style.backgroundColor='';
+document.getElementById('CHANGETHERETURN').style.backgroundColor='';
+document.getElementById('allnotpermitted').style.backgroundColor='';
+// IN-voluntary changes
+document.getElementById('involuntrychange').style.backgroundColor='';
+document.getElementById('SCAirCanada').style.backgroundColor='';
+// FTC
+document.getElementById('getftc').style.backgroundColor='gray';
+document.getElementById('redeemftc').style.backgroundColor='';
+document.getElementById('redeemexpiredftc').style.backgroundColor='';
+// Refund
+document.getElementById('VoluntryRefund').style.backgroundColor='';
+document.getElementById('INvoluntryRefundCHA').style.backgroundColor='';
+document.getElementById('INvoluntryRefundCAN').style.backgroundColor='';
+document.getElementById('refundCSA').style.backgroundColor='';
+document.getElementById('refundcp').style.backgroundColor='';
+document.getElementById('refundmanulife').style.backgroundColor='';
+document.getElementById('refundseatmapfee').style.backgroundColor='';
+// PNR MODIFICATION
+document.getElementById('NameCorrection').style.backgroundColor='';
+document.getElementById('DOBCHANGE').style.backgroundColor='';
+// General Inquires
+document.getElementById('SelectedSeats').style.backgroundColor='';
+
+
+
+document.getElementById("guidancetext").innerHTML ="" ;
+
+
+}
+
+getftc.addEventListener('click', greet19);
+
+
+
+// // END OF BUTTON NUMBER ONE 12
+// // END OF BUTTON NUMBER ONE 12
+// // END OF BUTTON NUMBER ONE 12
+// // END OF BUTTON NUMBER ONE 12
+// // END OF BUTTON NUMBER ONE 12
+// // END OF BUTTON NUMBER ONE 12
+
+
+
+const button20 = document.querySelector('redeemftc');
+
+function greet20() {
+  window.scrollTo({top: 0, behavior: 'smooth'});
+// document.getElementById("zdid").value = " ";
+   document.getElementById("cxinteraction2").value = "";
+ document.getElementById("customerrequest").value = "Customer Called to redeem his future credit ";
+document.getElementById("prpsion").value = "";
+ document.getElementById("agreement").value = "";
+
+
+
+
+document.getElementById('voidimplementedCA').style.backgroundColor='';
+document.getElementById('NONVoidableCA').style.backgroundColor='';
+document.getElementById('VoidWenrix').style.backgroundColor='';
+document.getElementById('SkipoptimizationWenrix').style.backgroundColor='';
+document.getElementById('voidtravelport').style.backgroundColor='';
+document.getElementById('voidtravelfusion').style.backgroundColor='';
+document.getElementById('voidkiwi').style.backgroundColor='';
+document.getElementById('didntgothrough').style.backgroundColor='';
+// Volunrtry Changes
+document.getElementById('CHANGETHEDEPATURE').style.backgroundColor='';
+document.getElementById('CHANGETHERETURN').style.backgroundColor='';
+document.getElementById('allnotpermitted').style.backgroundColor='';
+// IN-voluntary changes
+document.getElementById('involuntrychange').style.backgroundColor='';
+document.getElementById('SCAirCanada').style.backgroundColor='';
+// FTC
+document.getElementById('getftc').style.backgroundColor='';
+document.getElementById('redeemftc').style.backgroundColor='gray';
+document.getElementById('redeemexpiredftc').style.backgroundColor='';
+// Refund
+document.getElementById('VoluntryRefund').style.backgroundColor='';
+document.getElementById('INvoluntryRefundCHA').style.backgroundColor='';
+document.getElementById('INvoluntryRefundCAN').style.backgroundColor='';
+document.getElementById('refundCSA').style.backgroundColor='';
+document.getElementById('refundcp').style.backgroundColor='';
+document.getElementById('refundmanulife').style.backgroundColor='';
+document.getElementById('refundseatmapfee').style.backgroundColor='';
+// PNR MODIFICATION
+document.getElementById('NameCorrection').style.backgroundColor='';
+document.getElementById('DOBCHANGE').style.backgroundColor='';
+// General Inquires
+document.getElementById('SelectedSeats').style.backgroundColor='';
+
+
+
+
+
+
+document.getElementById("guidancetext").innerHTML ="" ;
+
+
+}
+
+redeemftc.addEventListener('click', greet20);
+
+
+// // END OF BUTTON NUMBER ONE 13
+// // END OF BUTTON NUMBER ONE 13
+// // END OF BUTTON NUMBER ONE 13
+// // END OF BUTTON NUMBER ONE 13
+// // END OF BUTTON NUMBER ONE 13
+// // END OF BUTTON NUMBER ONE 13
+
+const button21 = document.querySelector('redeemexpiredftc');
+
+function greet21() {
+  window.scrollTo({top: 0, behavior: 'smooth'});
+// document.getElementById("zdid").value = " ";
+   document.getElementById("cxinteraction2").value = "";
+ document.getElementById("customerrequest").value = "Customer Asked To Redeem His Expired Future Credit ";
+document.getElementById("prpsion").value = "I've explained to the customer that we’ll not be able to implement his request as the Unused credit after the validity period of the ticket will be forfeited according to the airline policy ";
+ document.getElementById("agreement").value = "";
+
+
+
+document.getElementById('voidimplementedCA').style.backgroundColor='';
+document.getElementById('NONVoidableCA').style.backgroundColor='';
+document.getElementById('VoidWenrix').style.backgroundColor='';
+document.getElementById('SkipoptimizationWenrix').style.backgroundColor='';
+document.getElementById('voidtravelport').style.backgroundColor='';
+document.getElementById('voidtravelfusion').style.backgroundColor='';
+document.getElementById('voidkiwi').style.backgroundColor='';
+document.getElementById('didntgothrough').style.backgroundColor='';
+// Volunrtry Changes
+document.getElementById('CHANGETHEDEPATURE').style.backgroundColor='';
+document.getElementById('CHANGETHERETURN').style.backgroundColor='';
+document.getElementById('allnotpermitted').style.backgroundColor='';
+// IN-voluntary changes
+document.getElementById('involuntrychange').style.backgroundColor='';
+document.getElementById('SCAirCanada').style.backgroundColor='';
+// FTC
+document.getElementById('getftc').style.backgroundColor='';
+document.getElementById('redeemftc').style.backgroundColor='';
+document.getElementById('redeemexpiredftc').style.backgroundColor='gray';
+// Refund
+document.getElementById('VoluntryRefund').style.backgroundColor='';
+document.getElementById('INvoluntryRefundCHA').style.backgroundColor='';
+document.getElementById('INvoluntryRefundCAN').style.backgroundColor='';
+document.getElementById('refundCSA').style.backgroundColor='';
+document.getElementById('refundcp').style.backgroundColor='';
+document.getElementById('refundmanulife').style.backgroundColor='';
+document.getElementById('refundseatmapfee').style.backgroundColor='';
+// PNR MODIFICATION
+document.getElementById('NameCorrection').style.backgroundColor='';
+document.getElementById('DOBCHANGE').style.backgroundColor='';
+// General Inquires
+document.getElementById('SelectedSeats').style.backgroundColor='';
+
+
+
+
+
+
+
+
+document.getElementById("guidancetext").innerHTML ="" ;
+
+
+}
+
+redeemexpiredftc.addEventListener('click', greet21);
+
+
+
+// // END OF BUTTON NUMBER ONE 14
+// // END OF BUTTON NUMBER ONE 14
+// // END OF BUTTON NUMBER ONE 14
+// // END OF BUTTON NUMBER ONE 14
+// // END OF BUTTON NUMBER ONE 14
+// // END OF BUTTON NUMBER ONE 14
+
+
+
+const button22 = document.querySelector('VoluntryRefund');
+
+function greet22() {
+  window.scrollTo({top: 0, behavior: 'smooth'});
+// document.getElementById("zdid").value = " ";
+   document.getElementById("cxinteraction2").value = "";
+ document.getElementById("customerrequest").value = "The Customer Asked To Refund his ticket (Voluntary Refund)";
+document.getElementById("prpsion").value = "";
+ document.getElementById("agreement").value = "";
+
+
+
+document.getElementById('voidimplementedCA').style.backgroundColor='';
+document.getElementById('NONVoidableCA').style.backgroundColor='';
+document.getElementById('VoidWenrix').style.backgroundColor='';
+document.getElementById('SkipoptimizationWenrix').style.backgroundColor='';
+document.getElementById('voidtravelport').style.backgroundColor='';
+document.getElementById('voidtravelfusion').style.backgroundColor='';
+document.getElementById('voidkiwi').style.backgroundColor='';
+document.getElementById('didntgothrough').style.backgroundColor='';
+// Volunrtry Changes
+document.getElementById('CHANGETHEDEPATURE').style.backgroundColor='';
+document.getElementById('CHANGETHERETURN').style.backgroundColor='';
+document.getElementById('allnotpermitted').style.backgroundColor='';
+// IN-voluntary changes
+document.getElementById('involuntrychange').style.backgroundColor='';
+document.getElementById('SCAirCanada').style.backgroundColor='';
+// FTC
+document.getElementById('getftc').style.backgroundColor='';
+document.getElementById('redeemftc').style.backgroundColor='';
+document.getElementById('redeemexpiredftc').style.backgroundColor='';
+// Refund
+document.getElementById('VoluntryRefund').style.backgroundColor='gray';
+document.getElementById('INvoluntryRefundCHA').style.backgroundColor='';
+document.getElementById('INvoluntryRefundCAN').style.backgroundColor='';
+document.getElementById('refundCSA').style.backgroundColor='';
+document.getElementById('refundcp').style.backgroundColor='';
+document.getElementById('refundmanulife').style.backgroundColor='';
+document.getElementById('refundseatmapfee').style.backgroundColor='';
+// PNR MODIFICATION
+document.getElementById('NameCorrection').style.backgroundColor='';
+document.getElementById('DOBCHANGE').style.backgroundColor='';
+// General Inquires
+document.getElementById('SelectedSeats').style.backgroundColor='';
+
+
+
+
+
+
+document.getElementById("guidancetext").innerHTML ="the refund window is '6-8 WEEKS' BUT the following airlines are exceptions and still take approximately '8-12 WEEKS':"+" <br>" +"1-Tap Air - 2-Copa Airlines - 3-Air India - 4-Fiji Airways"+" <br>" + "*for Hahn AirLines it might takes up 12 months"+" <br><br>" +" Update Fare Paid : TRFU/F00.00 "+" <br>" +"Update Used Paid : TRFU/U00.00"+" <br>" +"Update Tax Amount : TRFU/TU#-0.00  "+" <br>" +"Delete Tax  : TRFU/TX#  "+" <br>" +"Add The Penalty: TRFU/CP0.00A"+" <br>" +"Update FOP  : TRFU/FP1CCCA5XXXXXXXXXXX9030/0724  "+" <br>" +"Update FOP Amount : TRFU/FPA# 0000.00 " ;
+
+
+}
+
+VoluntryRefund.addEventListener('click', greet22);
+
+
+// // END OF BUTTON NUMBER ONE 15
+// // END OF BUTTON NUMBER ONE 15
+// // END OF BUTTON NUMBER ONE 15
+// // END OF BUTTON NUMBER ONE 15
+// // END OF BUTTON NUMBER ONE 15
+// // END OF BUTTON NUMBER ONE 15
+
+
+
+const button24 = document.querySelector('didntgothrough');
+
+function greet24() {
+  window.scrollTo({top: 0, behavior: 'smooth'});
+// document.getElementById("zdid").value = " ";
+   document.getElementById("cxinteraction2").value = "";
+
+ document.getElementById("customerrequest").value = "Customer Called To Ask About His Booking Statues (Aborted Booking)";
+document.getElementById("prpsion").value = "I've Told The Customer That The Reservation Is Not Confirmed As It Didn't Go Through And He Have To make A New Reservation As it's unreinstatable  "+ "\n"+ "\n"+ "so he has to book a new reservation using our website or by talking to one of our sales representatives  ";
+ document.getElementById("agreement").value = "yes customer agreed";
+
+
+
+document.getElementById('voidimplementedCA').style.backgroundColor='';
+document.getElementById('NONVoidableCA').style.backgroundColor='';
+document.getElementById('VoidWenrix').style.backgroundColor='';
+document.getElementById('SkipoptimizationWenrix').style.backgroundColor='';
+document.getElementById('voidtravelport').style.backgroundColor='';
+document.getElementById('voidtravelfusion').style.backgroundColor='';
+document.getElementById('voidkiwi').style.backgroundColor='';
+document.getElementById('didntgothrough').style.backgroundColor='gray';
+// Volunrtry Changes
+document.getElementById('CHANGETHEDEPATURE').style.backgroundColor='';
+document.getElementById('CHANGETHERETURN').style.backgroundColor='';
+document.getElementById('allnotpermitted').style.backgroundColor='';
+// IN-voluntary changes
+document.getElementById('involuntrychange').style.backgroundColor='';
+document.getElementById('SCAirCanada').style.backgroundColor='';
+// FTC
+document.getElementById('getftc').style.backgroundColor='';
+document.getElementById('redeemftc').style.backgroundColor='';
+document.getElementById('redeemexpiredftc').style.backgroundColor='';
+// Refund
+document.getElementById('VoluntryRefund').style.backgroundColor='';
+document.getElementById('INvoluntryRefundCHA').style.backgroundColor='';
+document.getElementById('INvoluntryRefundCAN').style.backgroundColor='';
+document.getElementById('refundCSA').style.backgroundColor='';
+document.getElementById('refundcp').style.backgroundColor='';
+document.getElementById('refundmanulife').style.backgroundColor='';
+document.getElementById('refundseatmapfee').style.backgroundColor='';
+// PNR MODIFICATION
+document.getElementById('NameCorrection').style.backgroundColor='';
+document.getElementById('DOBCHANGE').style.backgroundColor='';
+// General Inquires
+document.getElementById('SelectedSeats').style.backgroundColor='';
+
+
+
+
+
+document.getElementById("guidancetext").innerHTML ="*any pending amount will drop off within one day otherwise within the void window "+" <br>" + "'Sales Team is working 24/7.' Numbers are:' ( JustFly: +18007175015 ) ||  ( FlightHub: +18009001431 )' " ;
+
+
+}
+
+didntgothrough.addEventListener('click', greet24);
+
+
+
+
+
+// // END OF BUTTON NUMBER ONE 16
+// // END OF BUTTON NUMBER ONE 16
+// // END OF BUTTON NUMBER ONE 16
+// // END OF BUTTON NUMBER ONE 16
+// // END OF BUTTON NUMBER ONE 16
+// // END OF BUTTON NUMBER ONE 16
+
+
+const button25 = document.querySelector('INvoluntryRefundCHA');
+
+function greet25() {
+  window.scrollTo({top: 0, behavior: 'smooth'});
+// document.getElementById("zdid").value = " ";
+   document.getElementById("cxinteraction2").value = "";
+ document.getElementById("customerrequest").value = "Customer Asked To Get A Refund Due To Schedule Change On His Flight From The Airline";
+document.getElementById("prpsion").value = "";
+ document.getElementById("agreement").value = "";
+
+
+
+// void cases
+document.getElementById('voidimplementedCA').style.backgroundColor='';
+document.getElementById('NONVoidableCA').style.backgroundColor='';
+document.getElementById('VoidWenrix').style.backgroundColor='';
+document.getElementById('SkipoptimizationWenrix').style.backgroundColor='';
+document.getElementById('voidtravelport').style.backgroundColor='';
+document.getElementById('voidtravelfusion').style.backgroundColor='';
+document.getElementById('voidkiwi').style.backgroundColor='';
+document.getElementById('didntgothrough').style.backgroundColor='';
+// Volunrtry Changes
+document.getElementById('CHANGETHEDEPATURE').style.backgroundColor='';
+document.getElementById('CHANGETHERETURN').style.backgroundColor='';
+document.getElementById('allnotpermitted').style.backgroundColor='';
+// IN-voluntary changes
+document.getElementById('involuntrychange').style.backgroundColor='';
+document.getElementById('SCAirCanada').style.backgroundColor='';
+// FTC
+document.getElementById('getftc').style.backgroundColor='';
+document.getElementById('redeemftc').style.backgroundColor='';
+document.getElementById('redeemexpiredftc').style.backgroundColor='';
+// Refund
+document.getElementById('VoluntryRefund').style.backgroundColor='';
+document.getElementById('INvoluntryRefundCHA').style.backgroundColor='gray';
+document.getElementById('INvoluntryRefundCAN').style.backgroundColor='';
+document.getElementById('refundCSA').style.backgroundColor='';
+document.getElementById('refundcp').style.backgroundColor='';
+document.getElementById('refundmanulife').style.backgroundColor='';
+document.getElementById('refundseatmapfee').style.backgroundColor='';
+// PNR MODIFICATION
+document.getElementById('NameCorrection').style.backgroundColor='';
+document.getElementById('DOBCHANGE').style.backgroundColor='';
+// General Inquires
+document.getElementById('SelectedSeats').style.backgroundColor='';
+
+
+
+
+
+
+document.getElementById("guidancetext").innerHTML ="the refund window is '6-8 WEEKS' BUT the following airlines are exceptions and still take approximately '8-12 WEEKS':"+" <br>" +"1-Tap Air - 2-Copa Airlines - 3-Air India - 4-Fiji Airways"+" <br>" + "*for Hahn AirLines it might takes up 12 months"+" <br><br>" +" Update Fare Paid : TRFU/F00.00 "+" <br>" +"Update Used Paid : TRFU/U00.00"+" <br>" +"Update Tax Amount : TRFU/TU#-0.00  "+" <br>" +"Delete Tax  : TRFU/TX#  "+" <br>" +"Add The Penalty: TRFU/CP0.00A"+" <br>" +"Update FOP  : TRFU/FP1CCCA5XXXXXXXXXXX9030/0724  "+" <br>" +"Update FOP Amount : TRFU/FPA# 0000.00 " ;
+
+
+}
+
+INvoluntryRefundCHA.addEventListener('click', greet25);
+
+
+// // END OF BUTTON NUMBER ONE 17*2
+// // END OF BUTTON NUMBER ONE 17*2
+// // END OF BUTTON NUMBER ONE 17*2
+// // END OF BUTTON NUMBER ONE 17*2
+// // END OF BUTTON NUMBER ONE 17*2
+// // END OF BUTTON NUMBER ONE 17*2
+const button255 = document.querySelector('INvoluntryRefundCAN');
+
+function greet255() {
+  window.scrollTo({top: 0, behavior: 'smooth'});
+// document.getElementById("zdid").value = " ";
+   document.getElementById("cxinteraction2").value = "";
+ document.getElementById("customerrequest").value = "Customer Asked To Get A Refund Due To cancellation On His Flight From The Airline without alternatives ";
+document.getElementById("prpsion").value = "";
+ document.getElementById("agreement").value = "";
+
+
+// void cases
+document.getElementById('voidimplementedCA').style.backgroundColor='';
+document.getElementById('NONVoidableCA').style.backgroundColor='';
+document.getElementById('VoidWenrix').style.backgroundColor='';
+document.getElementById('SkipoptimizationWenrix').style.backgroundColor='';
+document.getElementById('voidtravelport').style.backgroundColor='';
+document.getElementById('voidtravelfusion').style.backgroundColor='';
+document.getElementById('voidkiwi').style.backgroundColor='';
+document.getElementById('didntgothrough').style.backgroundColor='';
+// Volunrtry Changes
+document.getElementById('CHANGETHEDEPATURE').style.backgroundColor='';
+document.getElementById('CHANGETHERETURN').style.backgroundColor='';
+document.getElementById('allnotpermitted').style.backgroundColor='';
+// IN-voluntary changes
+document.getElementById('involuntrychange').style.backgroundColor='';
+document.getElementById('SCAirCanada').style.backgroundColor='';
+// FTC
+document.getElementById('getftc').style.backgroundColor='';
+document.getElementById('redeemftc').style.backgroundColor='';
+document.getElementById('redeemexpiredftc').style.backgroundColor='';
+// Refund
+document.getElementById('VoluntryRefund').style.backgroundColor='';
+document.getElementById('INvoluntryRefundCHA').style.backgroundColor='';
+document.getElementById('INvoluntryRefundCAN').style.backgroundColor='gray';
+document.getElementById('refundCSA').style.backgroundColor='';
+document.getElementById('refundcp').style.backgroundColor='';
+document.getElementById('refundmanulife').style.backgroundColor='';
+document.getElementById('refundseatmapfee').style.backgroundColor='';
+// PNR MODIFICATION
+document.getElementById('NameCorrection').style.backgroundColor='';
+document.getElementById('DOBCHANGE').style.backgroundColor='';
+// General Inquires
+document.getElementById('SelectedSeats').style.backgroundColor='';
+
+
+
+
+
+document.getElementById("guidancetext").innerHTML ="the refund window is '6-8 WEEKS' BUT the following airlines are exceptions and still take approximately '8-12 WEEKS':"+" <br>" +"1-Tap Air - 2-Copa Airlines - 3-Air India - 4-Fiji Airways"+" <br>" + "*for Hahn AirLines it might takes up 12 months"+" <br><br>" +" Update Fare Paid : TRFU/F00.00 "+" <br>" +"Update Used Paid : TRFU/U00.00"+" <br>" +"Update Tax Amount : TRFU/TU#-0.00  "+" <br>" +"Delete Tax  : TRFU/TX#  "+" <br>" +"Add The Penalty: TRFU/CP0.00A"+" <br>" +"Update FOP  : TRFU/FP1CCCA5XXXXXXXXXXX9030/0724  "+" <br>" +"Update FOP Amount : TRFU/FPA# 0000.00 " ;
+
+
+}
+
+INvoluntryRefundCAN.addEventListener('click', greet255);
+
+
+
+
+// // END OF BUTTON NUMBER ONE 17
+// // END OF BUTTON NUMBER ONE 17
+// // END OF BUTTON NUMBER ONE 17
+// // END OF BUTTON NUMBER ONE 17
+// // END OF BUTTON NUMBER ONE 17
+// // END OF BUTTON NUMBER ONE 17
+
+
+const button27 = document.querySelector('refundCSA');
+
+function greet27() {
+  window.scrollTo({top: 0, behavior: 'smooth'});
+// document.getElementById("zdid").value = " ";
+   document.getElementById("cxinteraction2").value = "";
+ document.getElementById("customerrequest").value = "Customer Asked To Cancel The CSA (Generali Travel Insurance)";
+document.getElementById("prpsion").value = "";
+ document.getElementById("agreement").value = "";
+
+
+
+// void cases
+document.getElementById('voidimplementedCA').style.backgroundColor='';
+document.getElementById('NONVoidableCA').style.backgroundColor='';
+document.getElementById('VoidWenrix').style.backgroundColor='';
+document.getElementById('SkipoptimizationWenrix').style.backgroundColor='';
+document.getElementById('voidtravelport').style.backgroundColor='';
+document.getElementById('voidtravelfusion').style.backgroundColor='';
+document.getElementById('voidkiwi').style.backgroundColor='';
+document.getElementById('didntgothrough').style.backgroundColor='';
+// Volunrtry Changes
+document.getElementById('CHANGETHEDEPATURE').style.backgroundColor='';
+document.getElementById('CHANGETHERETURN').style.backgroundColor='';
+document.getElementById('allnotpermitted').style.backgroundColor='';
+// IN-voluntary changes
+document.getElementById('involuntrychange').style.backgroundColor='';
+document.getElementById('SCAirCanada').style.backgroundColor='';
+// FTC
+document.getElementById('getftc').style.backgroundColor='';
+document.getElementById('redeemftc').style.backgroundColor='';
+document.getElementById('redeemexpiredftc').style.backgroundColor='';
+// Refund
+document.getElementById('VoluntryRefund').style.backgroundColor='';
+document.getElementById('INvoluntryRefundCHA').style.backgroundColor='';
+document.getElementById('INvoluntryRefundCAN').style.backgroundColor='';
+document.getElementById('refundCSA').style.backgroundColor='gray';
+document.getElementById('refundcp').style.backgroundColor='';
+document.getElementById('refundmanulife').style.backgroundColor='';
+document.getElementById('refundseatmapfee').style.backgroundColor='';
+// PNR MODIFICATION
+document.getElementById('NameCorrection').style.backgroundColor='';
+document.getElementById('DOBCHANGE').style.backgroundColor='';
+// General Inquires
+document.getElementById('SelectedSeats').style.backgroundColor='';
+
+
+
+
+
+document.getElementById("guidancetext").innerHTML ="*CSA can be refunded within 10 days of purchase || CSA toll-free: 877-243-4135 ";
+
+
+}
+
+refundCSA.addEventListener('click', greet27);
+
+
+// // END OF BUTTON NUMBER ONE 18
+// // END OF BUTTON NUMBER ONE 18
+// // END OF BUTTON NUMBER ONE 18
+// // END OF BUTTON NUMBER ONE 18
+// // END OF BUTTON NUMBER ONE 18
+// // END OF BUTTON NUMBER ONE 18
+
+
+const button28 = document.querySelector('refundcp');
+
+function greet28() {
+  window.scrollTo({top: 0, behavior: 'smooth'});
+// document.getElementById("zdid").value = " ";
+   document.getElementById("cxinteraction2").value = "";
+ document.getElementById("customerrequest").value = "Customer Asked To Cancel & Refund The Cancellation Protection";
+document.getElementById("prpsion").value = "";
+ document.getElementById("agreement").value = "";
+
+
+
+// void cases
+document.getElementById('voidimplementedCA').style.backgroundColor='';
+document.getElementById('NONVoidableCA').style.backgroundColor='';
+document.getElementById('VoidWenrix').style.backgroundColor='';
+document.getElementById('SkipoptimizationWenrix').style.backgroundColor='';
+document.getElementById('voidtravelport').style.backgroundColor='';
+document.getElementById('voidtravelfusion').style.backgroundColor='';
+document.getElementById('voidkiwi').style.backgroundColor='';
+document.getElementById('didntgothrough').style.backgroundColor='';
+// Volunrtry Changes
+document.getElementById('CHANGETHEDEPATURE').style.backgroundColor='';
+document.getElementById('CHANGETHERETURN').style.backgroundColor='';
+document.getElementById('allnotpermitted').style.backgroundColor='';
+// IN-voluntary changes
+document.getElementById('involuntrychange').style.backgroundColor='';
+document.getElementById('SCAirCanada').style.backgroundColor='';
+// FTC
+document.getElementById('getftc').style.backgroundColor='';
+document.getElementById('redeemftc').style.backgroundColor='';
+document.getElementById('redeemexpiredftc').style.backgroundColor='';
+// Refund
+document.getElementById('VoluntryRefund').style.backgroundColor='';
+document.getElementById('INvoluntryRefundCHA').style.backgroundColor='';
+document.getElementById('INvoluntryRefundCAN').style.backgroundColor='';
+document.getElementById('refundCSA').style.backgroundColor='';
+document.getElementById('refundcp').style.backgroundColor='gray';
+document.getElementById('refundmanulife').style.backgroundColor='';
+document.getElementById('refundseatmapfee').style.backgroundColor='';
+// PNR MODIFICATION
+document.getElementById('NameCorrection').style.backgroundColor='';
+document.getElementById('DOBCHANGE').style.backgroundColor='';
+// General Inquires
+document.getElementById('SelectedSeats').style.backgroundColor='';
+
+
+
+
+
+
+
+document.getElementById("guidancetext").innerHTML ="*Cancellation Protection Is NON REFUNDABLE After The Void Window"+"\n" +"You Can Find Related Information About Cancellation Protection Uses From The below Links : https://www.refundable.me/justfly/"+"\n" +"https://www.refundable.me/flighthub/";
+
+
+}
+
+refundcp.addEventListener('click', greet28);
+
+
+
+
+// // END OF BUTTON NUMBER ONE 19
+// // END OF BUTTON NUMBER ONE 19
+// // END OF BUTTON NUMBER ONE 19
+// // END OF BUTTON NUMBER ONE 19
+// // END OF BUTTON NUMBER ONE 19
+// // END OF BUTTON NUMBER ONE 19
+
+const button29 = document.querySelector('refundmanulife');
+
+function greet29() {
+  window.scrollTo({top: 0, behavior: 'smooth'});
+// document.getElementById("zdid").value = " ";
+   document.getElementById("cxinteraction2").value = "";
+ document.getElementById("customerrequest").value = "Customer Asked To Cancel & Refund The Manulife insurance ";
+document.getElementById("prpsion").value = "";
+ document.getElementById("agreement").value = "";
+
+
+
+// void cases
+document.getElementById('voidimplementedCA').style.backgroundColor='';
+document.getElementById('NONVoidableCA').style.backgroundColor='';
+document.getElementById('VoidWenrix').style.backgroundColor='';
+document.getElementById('SkipoptimizationWenrix').style.backgroundColor='';
+document.getElementById('voidtravelport').style.backgroundColor='';
+document.getElementById('voidtravelfusion').style.backgroundColor='';
+document.getElementById('voidkiwi').style.backgroundColor='';
+document.getElementById('didntgothrough').style.backgroundColor='';
+// Volunrtry Changes
+document.getElementById('CHANGETHEDEPATURE').style.backgroundColor='';
+document.getElementById('CHANGETHERETURN').style.backgroundColor='';
+document.getElementById('allnotpermitted').style.backgroundColor='';
+// IN-voluntary changes
+document.getElementById('involuntrychange').style.backgroundColor='';
+document.getElementById('SCAirCanada').style.backgroundColor='';
+// FTC
+document.getElementById('getftc').style.backgroundColor='';
+document.getElementById('redeemftc').style.backgroundColor='';
+document.getElementById('redeemexpiredftc').style.backgroundColor='';
+// Refund
+document.getElementById('VoluntryRefund').style.backgroundColor='';
+document.getElementById('INvoluntryRefundCHA').style.backgroundColor='';
+document.getElementById('INvoluntryRefundCAN').style.backgroundColor='';
+document.getElementById('refundCSA').style.backgroundColor='';
+document.getElementById('refundcp').style.backgroundColor='';
+document.getElementById('refundmanulife').style.backgroundColor='gray';
+document.getElementById('refundseatmapfee').style.backgroundColor='';
+// PNR MODIFICATION
+document.getElementById('NameCorrection').style.backgroundColor='';
+document.getElementById('DOBCHANGE').style.backgroundColor='';
+// General Inquires
+document.getElementById('SelectedSeats').style.backgroundColor='';
+
+
+
+
+document.getElementById("guidancetext").innerHTML ="Manulife Refund;  Availible within 10 days from date of purchase"+"\n" +"Purchased : Can be purchased any time before departure || || Manulife customer servise 1-800-268-6195 (8 a.m. to 8 p.m. EST, Mon. to Fri.)";
+
+
+}
+
+refundmanulife.addEventListener('click', greet29);
+
+
+// // END OF BUTTON NUMBER ONE 20
+// // END OF BUTTON NUMBER ONE 20
+// // END OF BUTTON NUMBER ONE 20
+// // END OF BUTTON NUMBER ONE 20
+// // END OF BUTTON NUMBER ONE 20
+// // END OF BUTTON NUMBER ONE 20
+
+
+
+
+
+// // END OF BUTTON NUMBER ONE 21
+// // END OF BUTTON NUMBER ONE 21
+// // END OF BUTTON NUMBER ONE 21
+// // END OF BUTTON NUMBER ONE 21
+// // END OF BUTTON NUMBER ONE 21
+// // END OF BUTTON NUMBER ONE 21
+
+
+const button31 = document.querySelector('refundseatmapfee');
+
+function greet31() {
+  window.scrollTo({top: 0, behavior: 'smooth'});
+// document.getElementById("zdid").value = " ";
+ document.getElementById("customerrequest").value = "Customer Asked To Refund The seats map fee || Seating Assignment Fee - (Checkout) ";
+document.getElementById("prpsion").value = "";
+ document.getElementById("agreement").value = "";
+
+
+
+// void cases
+document.getElementById('voidimplementedCA').style.backgroundColor='';
+document.getElementById('NONVoidableCA').style.backgroundColor='';
+document.getElementById('VoidWenrix').style.backgroundColor='';
+document.getElementById('SkipoptimizationWenrix').style.backgroundColor='';
+document.getElementById('voidtravelport').style.backgroundColor='';
+document.getElementById('voidtravelfusion').style.backgroundColor='';
+document.getElementById('voidkiwi').style.backgroundColor='';
+document.getElementById('didntgothrough').style.backgroundColor='';
+// Volunrtry Changes
+document.getElementById('CHANGETHEDEPATURE').style.backgroundColor='';
+document.getElementById('CHANGETHERETURN').style.backgroundColor='';
+document.getElementById('allnotpermitted').style.backgroundColor='';
+// IN-voluntary changes
+document.getElementById('involuntrychange').style.backgroundColor='';
+document.getElementById('SCAirCanada').style.backgroundColor='';
+// FTC
+document.getElementById('getftc').style.backgroundColor='';
+document.getElementById('redeemftc').style.backgroundColor='';
+document.getElementById('redeemexpiredftc').style.backgroundColor='';
+// Refund
+document.getElementById('VoluntryRefund').style.backgroundColor='';
+document.getElementById('INvoluntryRefundCHA').style.backgroundColor='';
+document.getElementById('INvoluntryRefundCAN').style.backgroundColor='';
+document.getElementById('refundCSA').style.backgroundColor='';
+document.getElementById('refundcp').style.backgroundColor='';
+document.getElementById('refundmanulife').style.backgroundColor='';
+document.getElementById('refundseatmapfee').style.backgroundColor='gray';
+// PNR MODIFICATION
+document.getElementById('NameCorrection').style.backgroundColor='';
+document.getElementById('DOBCHANGE').style.backgroundColor='';
+// General Inquires
+document.getElementById('SelectedSeats').style.backgroundColor='';
+
+
+
+
+
+
+document.getElementById("guidancetext").innerHTML ="*Seating Assignment Fee - (Checkout) Is NON REFUNDABLE .. Can be refunded only in case of the requested seats didn't go through "+" <br>" +" *Paid seats will be unconfirmed 'if the EMD Not Issued' but 'if it a seats with no charge it can be cofirmed on the pnr without EMD' "+" <br>" +" TO DISPLAY THE SEAT MAP ENTER: SM ";
+
+
+}
+
+refundseatmapfee.addEventListener('click', greet31);
+
+
+
+// // END OF BUTTON NUMBER ONE 22
+// // END OF BUTTON NUMBER ONE 22
+// // END OF BUTTON NUMBER ONE 22
+// // END OF BUTTON NUMBER ONE 22
+// // END OF BUTTON NUMBER ONE 22
+// // END OF BUTTON NUMBER ONE 22
+
+
+
+const button33 = document.querySelector('Book Seats');
+
+function greet33() {
+
+window.scrollTo({top: 0, behavior: 'smooth'});
+// document.getElementById("zdid").value = " ";
+   document.getElementById("cxinteraction2").value = "";
+ document.getElementById("customerrequest").value = "Customer Asked To Assign A Specific Seats ";
+document.getElementById("prpsion").value = "";
+ document.getElementById("agreement").value = "";
+
+
+
+
+// void cases
+document.getElementById('voidimplementedCA').style.backgroundColor='';
+document.getElementById('NONVoidableCA').style.backgroundColor='';
+document.getElementById('VoidWenrix').style.backgroundColor='';
+document.getElementById('SkipoptimizationWenrix').style.backgroundColor='';
+document.getElementById('voidtravelport').style.backgroundColor='';
+document.getElementById('voidtravelfusion').style.backgroundColor='';
+document.getElementById('voidkiwi').style.backgroundColor='';
+document.getElementById('didntgothrough').style.backgroundColor='';
+// Volunrtry Changes
+document.getElementById('CHANGETHEDEPATURE').style.backgroundColor='';
+document.getElementById('CHANGETHERETURN').style.backgroundColor='';
+document.getElementById('allnotpermitted').style.backgroundColor='';
+// IN-voluntary changes
+document.getElementById('involuntrychange').style.backgroundColor='';
+document.getElementById('SCAirCanada').style.backgroundColor='';
+// FTC
+document.getElementById('getftc').style.backgroundColor='';
+document.getElementById('redeemftc').style.backgroundColor='';
+document.getElementById('redeemexpiredftc').style.backgroundColor='';
+// Refund
+document.getElementById('VoluntryRefund').style.backgroundColor='';
+document.getElementById('INvoluntryRefundCHA').style.backgroundColor='';
+document.getElementById('INvoluntryRefundCAN').style.backgroundColor='';
+document.getElementById('refundCSA').style.backgroundColor='';
+document.getElementById('refundcp').style.backgroundColor='';
+document.getElementById('refundmanulife').style.backgroundColor='';
+document.getElementById('refundseatmapfee').style.backgroundColor='';
+// PNR MODIFICATION
+document.getElementById('NameCorrection').style.backgroundColor='';
+document.getElementById('DOBCHANGE').style.backgroundColor='';
+// General Inquires
+document.getElementById('SelectedSeats').style.backgroundColor='gray';
+
+
+
+
+document.getElementById("guidancetext").innerHTML ="*IF the Seat is Chargable We Need to Issue An Emd For It also To Reissue it if Ther're any changes for the associated segments on the PNR ";
+
+
+}
+
+SelectedSeats.addEventListener('click', greet33);
+
+
+
+
+
+// // END OF BUTTON NUMBER ONE 23
+// // END OF BUTTON NUMBER ONE 23
+// // END OF BUTTON NUMBER ONE 23
+// // END OF BUTTON NUMBER ONE 23
+// // END OF BUTTON NUMBER ONE 23
+// // END OF BUTTON NUMBER ONE 23
+
+
+
+const button34 = document.querySelector('SCAirCanada');
+
+function greet34() {
+
+window.scrollTo({top: 0, behavior: 'smooth'});
+// document.getElementById("zdid").value = " ";
+   document.getElementById("cxinteraction2").value = "";
+ document.getElementById("customerrequest").value = "the Customer Calling to change his flight due to Schedule change from Air Canada ";
+document.getElementById("prpsion").value = "";
+ document.getElementById("agreement").value = "";
+
+
+
+// void cases
+document.getElementById('voidimplementedCA').style.backgroundColor='';
+document.getElementById('NONVoidableCA').style.backgroundColor='';
+document.getElementById('VoidWenrix').style.backgroundColor='';
+document.getElementById('SkipoptimizationWenrix').style.backgroundColor='';
+document.getElementById('voidtravelport').style.backgroundColor='';
+document.getElementById('voidtravelfusion').style.backgroundColor='';
+document.getElementById('voidkiwi').style.backgroundColor='';
+document.getElementById('didntgothrough').style.backgroundColor='';
+// Volunrtry Changes
+document.getElementById('CHANGETHEDEPATURE').style.backgroundColor='';
+document.getElementById('CHANGETHERETURN').style.backgroundColor='';
+document.getElementById('allnotpermitted').style.backgroundColor='';
+// IN-voluntary changes
+document.getElementById('involuntrychange').style.backgroundColor='';
+document.getElementById('SCAirCanada').style.backgroundColor='gray';
+// FTC
+document.getElementById('getftc').style.backgroundColor='';
+document.getElementById('redeemftc').style.backgroundColor='';
+document.getElementById('redeemexpiredftc').style.backgroundColor='';
+// Refund
+document.getElementById('VoluntryRefund').style.backgroundColor='';
+document.getElementById('INvoluntryRefundCHA').style.backgroundColor='';
+document.getElementById('INvoluntryRefundCAN').style.backgroundColor='';
+document.getElementById('refundCSA').style.backgroundColor='';
+document.getElementById('refundcp').style.backgroundColor='';
+document.getElementById('refundmanulife').style.backgroundColor='';
+document.getElementById('refundseatmapfee').style.backgroundColor='';
+// PNR MODIFICATION
+document.getElementById('NameCorrection').style.backgroundColor='';
+document.getElementById('DOBCHANGE').style.backgroundColor='';
+// General Inquires
+document.getElementById('SelectedSeats').style.backgroundColor='';
+
+
+var yyy = document.getElementById('guidancetext');
+  yyy.innerHTML = 
+    "*1-select available class of service up to M class " +" <br><br>" + " 2-if there's no action has been taken on the alternative flights (TK) within 14 days of the schedule change notification or 7 business days prior to the departure the airline will consider that the passenger has agreed to the new segments "+" <br><br>" +"3-Protection is not permitted on any carriers which Air Canada does not have an interline ET agreement with, we can check the Airlines Agreement by using the below command TGAD-AL 1/AL 2 EX:(TGAD-BA/IB) " +" <br><br>" + "3-Cumulative Totals Of Ticket Point Mileage Can Be Displayed By Using The Command: Fqm Airport1 Airport2 For Example: FQM Fll   Mia Or Using FRM Command";
+
+
+
+}
+
+SCAirCanada.addEventListener('click', greet34);
+
+
+// // END OF BUTTON NUMBER ONE 24
+// // END OF BUTTON NUMBER ONE 24
+// // END OF BUTTON NUMBER ONE 24
+// // END OF BUTTON NUMBER ONE 24
+// // END OF BUTTON NUMBER ONE 24
+// // END OF BUTTON NUMBER ONE 24
+
+const button36 = document.querySelector('NameCorrection');
+
+function greet36() {
+
+window.scrollTo({top: 0, behavior: 'smooth'});
+// document.getElementById("zdid").value = " ";
+   document.getElementById("cxinteraction2").value = "";
+ document.getElementById("customerrequest").value = "Customer Called To Correct His Name On The Ticket ";
+document.getElementById("prpsion").value = "";
+ document.getElementById("agreement").value = "";
+
+
+
+// void cases
+document.getElementById('voidimplementedCA').style.backgroundColor='';
+document.getElementById('NONVoidableCA').style.backgroundColor='';
+document.getElementById('VoidWenrix').style.backgroundColor='';
+document.getElementById('SkipoptimizationWenrix').style.backgroundColor='';
+document.getElementById('voidtravelport').style.backgroundColor='';
+document.getElementById('voidtravelfusion').style.backgroundColor='';
+document.getElementById('voidkiwi').style.backgroundColor='';
+document.getElementById('didntgothrough').style.backgroundColor='';
+// Volunrtry Changes
+document.getElementById('CHANGETHEDEPATURE').style.backgroundColor='';
+document.getElementById('CHANGETHERETURN').style.backgroundColor='';
+document.getElementById('allnotpermitted').style.backgroundColor='';
+// IN-voluntary changes
+document.getElementById('involuntrychange').style.backgroundColor='';
+document.getElementById('SCAirCanada').style.backgroundColor='';
+// FTC
+document.getElementById('getftc').style.backgroundColor='';
+document.getElementById('redeemftc').style.backgroundColor='';
+document.getElementById('redeemexpiredftc').style.backgroundColor='';
+// Refund
+document.getElementById('VoluntryRefund').style.backgroundColor='';
+document.getElementById('INvoluntryRefundCHA').style.backgroundColor='';
+document.getElementById('INvoluntryRefundCAN').style.backgroundColor='';
+document.getElementById('refundCSA').style.backgroundColor='';
+document.getElementById('refundcp').style.backgroundColor='';
+document.getElementById('refundmanulife').style.backgroundColor='';
+document.getElementById('refundseatmapfee').style.backgroundColor='';
+// PNR MODIFICATION
+document.getElementById('NameCorrection').style.backgroundColor='gray';
+document.getElementById('DOBCHANGE').style.backgroundColor='';
+// General Inquires
+document.getElementById('SelectedSeats').style.backgroundColor='';
+
+
+var yyy = document.getElementById('guidancetext');
+  yyy.innerHTML = 
+    "";
+
+
+
+}
+
+NameCorrection.addEventListener('click', greet36);
+
+// // END OF BUTTON NUMBER ONE 24
+// // END OF BUTTON NUMBER ONE 24
+// // END OF BUTTON NUMBER ONE 24
+// // END OF BUTTON NUMBER ONE 24
+// // END OF BUTTON NUMBER ONE 24
+// // END OF BUTTON NUMBER ONE 24
+
+const button38 = document.querySelector('DOBCHANGE');
+
+function greet38() {
+
+window.scrollTo({top: 0, behavior: 'smooth'});
+// document.getElementById("zdid").value = " ";
+   document.getElementById("cxinteraction2").value = "";
+ document.getElementById("customerrequest").value = "Customer Called To Correct His Date Of Birth on the booking ";
+document.getElementById("prpsion").value = "";
+ document.getElementById("agreement").value = "";
+
+
+// void cases
+document.getElementById('voidimplementedCA').style.backgroundColor='';
+document.getElementById('NONVoidableCA').style.backgroundColor='';
+document.getElementById('VoidWenrix').style.backgroundColor='';
+document.getElementById('SkipoptimizationWenrix').style.backgroundColor='';
+document.getElementById('voidtravelport').style.backgroundColor='';
+document.getElementById('voidtravelfusion').style.backgroundColor='';
+document.getElementById('voidkiwi').style.backgroundColor='';
+document.getElementById('didntgothrough').style.backgroundColor='';
+// Volunrtry Changes
+document.getElementById('CHANGETHEDEPATURE').style.backgroundColor='';
+document.getElementById('CHANGETHERETURN').style.backgroundColor='';
+document.getElementById('allnotpermitted').style.backgroundColor='';
+// IN-voluntary changes
+document.getElementById('involuntrychange').style.backgroundColor='';
+document.getElementById('SCAirCanada').style.backgroundColor='';
+// FTC
+document.getElementById('getftc').style.backgroundColor='';
+document.getElementById('redeemftc').style.backgroundColor='';
+document.getElementById('redeemexpiredftc').style.backgroundColor='';
+// Refund
+document.getElementById('VoluntryRefund').style.backgroundColor='';
+document.getElementById('INvoluntryRefundCHA').style.backgroundColor='';
+document.getElementById('INvoluntryRefundCAN').style.backgroundColor='';
+document.getElementById('refundCSA').style.backgroundColor='';
+document.getElementById('refundcp').style.backgroundColor='';
+document.getElementById('refundmanulife').style.backgroundColor='';
+document.getElementById('refundseatmapfee').style.backgroundColor='';
+// PNR MODIFICATION
+document.getElementById('NameCorrection').style.backgroundColor='';
+document.getElementById('DOBCHANGE').style.backgroundColor='gray';
+// General Inquires
+document.getElementById('SelectedSeats').style.backgroundColor='';
+
+
+var yyy = document.getElementById('guidancetext');
+  yyy.innerHTML = 
+    "SR DOCS AL HK1-----DOB-M--name-name/P1";
+
+
+
+}
+
+DOBCHANGE.addEventListener('click', greet38);
+
+
+
+
+// //********************************* END OF THE SIDE BUTTONS **********************************
+// //********************************* END OF THE SIDE BUTTONS **********************************// END OF THE SIDE BUTTONS 
+// //********************************* END OF THE SIDE BUTTONS **********************************// END OF THE SIDE BUTTONS 
+// //********************************* END OF THE SIDE BUTTONS **********************************
+// //********************************* END OF THE SIDE BUTTONS **********************************
+// //********************************* END OF THE SIDE BUTTONS **********************************
+// //********************************* END OF THE SIDE BUTTONS **********************************// END OF THE SIDE BUTTONS 
+// //********************************* END OF THE SIDE BUTTONS **********************************// END OF THE SIDE BUTTONS 
+// //********************************* END OF THE SIDE BUTTONS **********************************
+// //********************************* END OF THE SIDE BUTTONS **********************************
+
+
+
+// // buttons :
+// // buttons :
+// // buttons :
+// // button 1***********************************button 1**************
+// const buttonn1 = document.querySelector('agreementbtn1');
+
+// function greett1() {
+
+//  document.getElementById("agreement").value = "yes customer agreed";
+
+
+// }
+// agreementbtn1.addEventListener('click', greett1);
+
+// // button 2***********************************button 2**************
+// // button 2***********************************button 2**************
+// // button 2***********************************button 2**************
+// // button 2***********************************button 2**************
+// const buttonn2 = document.querySelector('agreementbtn2');
+
+// function greett2() {
+
+//  document.getElementById("agreement").value = "NO customer didn't agree";
+
+
+// }
+// agreementbtn2.addEventListener('click', greett2);
+
+// // button 2***********************************button 2**************
+// // button 2***********************************button 2**************
+// // button 2***********************************button 2**************
+// // button 2***********************************button 2**************
+ const buttonn299 = document.querySelector('beforezdbtn1');
+
+ function greett299() {
+
+  document.getElementById("cxinteraction2").value = "**New**"+"\n"+"";
+document.getElementById('beforezdbtn1').style.backgroundColor='gray';
+document.getElementById('beforezdbtn2').style.backgroundColor='';
+
+
+ }
+ beforezdbtn1.addEventListener('click', greett299);
+
+
+ // // button 2***********************************button 2**************
+// // button 2***********************************button 2**************
+// // button 2***********************************button 2**************
+// // button 2***********************************button 2**************
+ const buttonn298 = document.querySelector('beforezdbtn2');
+
+ function greett298() {
+
+  document.getElementById("cxinteraction2").value = "**Follow-Up**"+"\n"+"";
+document.getElementById('beforezdbtn1').style.backgroundColor='';
+document.getElementById('beforezdbtn2').style.backgroundColor='gray';
+
+
+ }
+ beforezdbtn2.addEventListener('click', greett298);
+
+
+
+
+// // button 3***********************************button 3**************
+// // button 3***********************************button 3**************
+// // button 3***********************************button 3**************
+// // button 3***********************************button 3**************
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// const buttonnn1 = document.querySelector('agreementbtn3');
+
+// function greettt1() {
+
+//  document.getElementById("agreement").value = "NO The Customer Will Call Us Back";
+
+
+// }
+// agreementbtn3.addEventListener('click', greettt1);
+
+
+// // button 3***********************************button 3**************
+// // button 3***********************************button 3**************
+// // button 3***********************************button 3**************
+// // button 3***********************************button 3**************
+// const buttonn3 = document.querySelector('actiontakenbtn1');
+
+// function greett3() {
+
+//  document.getElementById("actiontaken").value = "NO action has been taken";
+
+
+// }
+// actiontakenbtn1.addEventListener('click', greett3);
+// // button 4***********************************button 4**************
+// // button 4***********************************button 4**************
+// // button 4***********************************button 4**************
+// // button 4***********************************button 4**************
+// const buttonn4 = document.querySelector('actiontakenbtn2');
+
+// function greett4() {
+
+//  document.getElementById("actiontaken").value = "YES segments deleted";
+
+
+// }
+// actiontakenbtn2.addEventListener('click', greett4);
+// // button 5***********************************button 5**************
+// // button 5***********************************button 5**************
+// // button 5***********************************button 5**************
+// // button 5***********************************button 5**************
+// const buttonn5 = document.querySelector('actiontakenbtn3');
+
+// function greett5() {
+
+//  document.getElementById("actiontaken").value = "i've placed the agreed segments";
+
+
+// }
+// actiontakenbtn3.addEventListener('click', greett5);
+// // button 6***********************************button 6**************
+// // button 6***********************************button 6**************
+// // button 6***********************************button 6**************
+// // button 6***********************************button 6**************
+
+
+
+// const buttonn74 = document.querySelector('actiontakenbtn4');
+
+// function greett74() {
+
+//  document.getElementById("actiontaken").value = "Tickets has been reissued";
+
+
+// }
+// actiontakenbtn4.addEventListener('click', greett74);
+
+
+// // button 4***********************************button 4**************
+// // button 4***********************************button 4**************
+// // button 4***********************************button 4**************
+// // button 4***********************************button 4**************
+
+
+// const buttonn75 = document.querySelector('actiontakenbtn5');
+
+// function greett75() {
+
+//  document.getElementById("actiontaken").value = "Tickets has been Refunded";
+
+
+// }
+// actiontakenbtn5.addEventListener('click', greett75);
+
+
+// // button 4***********************************button 4**************
+// // button 4***********************************button 4**************
+// // button 4***********************************button 4**************
+// // button 4***********************************button 4**************
+
+// const buttonn6 = document.querySelector('selectedsegmentsbtn1');
+
+// function greett6() {
+
+//  document.getElementById("selectedsegments").value = "NO Selected Segments";
+
+
+// }
+// selectedsegmentsbtn1.addEventListener('click', greett6);
+// // button 7***********************************button 7**************
+// // button 7***********************************button 7**************
+// // button 7***********************************button 7**************
+// // button 7***********************************button 7**************
+// const buttonn7 = document.querySelector('nextstepsbtn1');
+
+// function greett7() {
+
+//  document.getElementById("nextsteps").value = "NO Action Needed";
+
+
+// }
+// nextstepsbtn1.addEventListener('click', greett7);
+// // button 8***********************************button 8**************
+// // button 8***********************************button 8**************
+// // button 8***********************************button 8**************
+// // button 8***********************************button 8**************
+// const buttonn8 = document.querySelector('nextstepsbtn2');
+
+// function greett8() {
+
+//  document.getElementById("nextsteps").value = "waiting for aft To Proceed";
+
+
+// }
+// nextstepsbtn2.addEventListener('click', greett8);
+// // button 9***********************************button 9**************
+// // button 9***********************************button 9**************
+// // button 9***********************************button 9**************
+// // button 9***********************************button 9**************
+// const buttonn9 = document.querySelector('nextstepsbtn3');
+
+// function greett9() {
+
+//  document.getElementById("nextsteps").value = "waiting for investigation team";
+
+
+// }
+// nextstepsbtn3.addEventListener('click', greett9);
+
+// // button 10***********************************button 10**************
+// // button 10***********************************button 10**************
+// // button 10***********************************button 10**************
+// // button 10***********************************button 10**************
+
+// const buttonn44 = document.querySelector('nextstepsbtn4');
+
+// function greett44() {
+
+//  document.getElementById("nextsteps").value = " waiting for the airline response";
+
+
+// }
+// nextstepsbtn4.addEventListener('click', greett44);
+
+// // button 10***********************************button 10**************
+// // button 10***********************************button 10**************
+// // button 10***********************************button 10**************
+// // button 10***********************************button 10**************
+
+
+// const buttonn45 = document.querySelector('nextstepsbtn5');
+
+// function greett45() {
+
+//  document.getElementById("nextsteps").value = " waiting for the supplier response";
+
+
+// }
+// nextstepsbtn5.addEventListener('click', greett45);
+
+// // button 10***********************************button 10**************
+// // button 10***********************************button 10**************
+// // button 10***********************************button 10**************
+// // button 10***********************************button 10**************
+
+
+// const buttonn46 = document.querySelector('nextstepsbtn6');
+
+// function greett46() {
+
+//  document.getElementById("nextsteps").value = " the customer waiting for a call from a Supervisor";
+
+
+// }
+// nextstepsbtn6.addEventListener('click', greett46);
+
+// // button 10***********************************button 10**************
+// // button 10***********************************button 10**************
+// // button 10***********************************button 10**************
+// // button 10***********************************button 10**************
+
+// const buttonn10 = document.querySelector('additionalinformationbtn1');
+
+// function greett10() {
+
+//  document.getElementById("additionalinformation").value = "no additional information";
+
+
+// }
+// additionalinformationbtn1.addEventListener('click', greett10);
+
+// // button 11***********************************button 11**************
+// // button 11***********************************button 11**************
+// // button 11***********************************button 11**************
+// // button 11 **********************************button 11**************
+
+
+
+const buttonn11 = document.querySelector('propositionbtn1');
+
+function greett11() {
+
+ document.getElementById("prpsion").value = "unfortunately we will not be able to fulfill your request";
+
+document.getElementById('propositionbtn1').style.backgroundColor='gray';
+document.getElementById('propositionbtn2').style.backgroundColor='';
+document.getElementById('propositionbtn3').style.backgroundColor='';
+document.getElementById('propositionbtn4').style.backgroundColor='';
+document.getElementById('propositionbtn5').style.backgroundColor='';
+document.getElementById('propositionbtn6').style.backgroundColor='';
+document.getElementById('propositionbtn7').style.backgroundColor='';
+document.getElementById('propositionbtn8').style.backgroundColor='';
+document.getElementById('propositionbtn9').style.backgroundColor='';
+document.getElementById('propositionbtn10').style.backgroundColor='';
+
+
+
+
+// 
+document.getElementById('prpsion').style.height = "6em";
+
+
+
+}
+propositionbtn1.addEventListener('click', greett11);
+
+
+// button 11***********************************button 11**************
+// button 11***********************************button 11**************
+// button 11***********************************button 11**************
+// button 11 **********************************button 11**************
+
+const buttonn12 = document.querySelector('propositionbtn2');
+
+function greett12() {
+
+ document.getElementById("prpsion").value = "I've told the customer that his request had gone to our executive team to proceed with implementing his request";
+
+document.getElementById('propositionbtn1').style.backgroundColor='';
+document.getElementById('propositionbtn2').style.backgroundColor='gray';
+document.getElementById('propositionbtn3').style.backgroundColor='';
+document.getElementById('propositionbtn4').style.backgroundColor='';
+document.getElementById('propositionbtn5').style.backgroundColor='';
+document.getElementById('propositionbtn6').style.backgroundColor='';
+document.getElementById('propositionbtn7').style.backgroundColor='';
+document.getElementById('propositionbtn8').style.backgroundColor='';
+document.getElementById('propositionbtn9').style.backgroundColor='';
+document.getElementById('propositionbtn10').style.backgroundColor='';
+
+
+
+
+
+// 
+document.getElementById('prpsion').style.height = "6em";
+
+
+
+}
+propositionbtn2.addEventListener('click', greett12);
+
+
+
+// button 11***********************************button 11**************
+// button 11***********************************button 11**************
+// button 11***********************************button 11**************
+// button 11 **********************************button 11**************
+
+const buttonn13 = document.querySelector('propositionbtn3');
+
+function greett13() {
+
+ document.getElementById("prpsion").value = "I've told the customer that his request still awaiting our executive team to be finalized";
+
+document.getElementById('propositionbtn1').style.backgroundColor='';
+document.getElementById('propositionbtn2').style.backgroundColor='';
+document.getElementById('propositionbtn3').style.backgroundColor='gray';
+document.getElementById('propositionbtn4').style.backgroundColor='';
+document.getElementById('propositionbtn5').style.backgroundColor='';
+document.getElementById('propositionbtn6').style.backgroundColor='';
+document.getElementById('propositionbtn7').style.backgroundColor='';
+document.getElementById('propositionbtn8').style.backgroundColor='';
+document.getElementById('propositionbtn9').style.backgroundColor='';
+document.getElementById('propositionbtn10').style.backgroundColor='';
+
+
+
+
+// 
+document.getElementById('prpsion').style.height = "6em";
+
+
+
+}
+propositionbtn3.addEventListener('click', greett13);
+
+// button 11***********************************button 11**************
+// button 11***********************************button 11**************
+// button 11***********************************button 11**************
+// button 11 **********************************button 11**************
+
+
+const buttonn14 = document.querySelector('propositionbtn4');
+
+function greett14() {
+
+ document.getElementById("prpsion").value = "i've offered to cancel the current segments in order to proceed with getting a future credit after clarifying the general future credit policy which is :"+"\n" +"\n" +
+"1- All tickets must be issued by the same airline "+"\n" +
+"2- The original ticket value is valid based on the fare-rules issued by the airline (so any penalties will be applied According to the fare rules) "+"\n" +
+"In addition the airline must charge the difference between the original flight price that you paid and the current price of the flights that the customer is looking to book"+"\n"+"\n"+
+"3- The credit amount is per individual ticket value and can only be used by the same passengers and on the same airline as the original booking."+"\n" +
+"4- it usually has to the same origin and the same destination as There may be limitations to the flight routing that this credit can be applied to."+"\n" +
+"5- Unused credit after the validity period of the ticket will be forfeited and usually it will be one year from the date of issuance "+"\n" +"(so travel must be completed before the ticket expiry-date)";
+
+document.getElementById('propositionbtn1').style.backgroundColor='';
+document.getElementById('propositionbtn2').style.backgroundColor='';
+document.getElementById('propositionbtn3').style.backgroundColor='';
+document.getElementById('propositionbtn4').style.backgroundColor='gray';
+document.getElementById('propositionbtn5').style.backgroundColor='';
+document.getElementById('propositionbtn6').style.backgroundColor='';
+document.getElementById('propositionbtn7').style.backgroundColor='';
+document.getElementById('propositionbtn8').style.backgroundColor='';
+document.getElementById('propositionbtn9').style.backgroundColor='';
+document.getElementById('propositionbtn10').style.backgroundColor='';
+
+
+
+
+
+// 
+document.getElementById('prpsion').style.height = "6em";
+
+
+
+}
+propositionbtn4.addEventListener('click', greett14);
+
+// button 11***********************************button 11**************
+// button 11***********************************button 11**************
+// button 11***********************************button 11**************
+// button 11 **********************************button 11**************
+
+
+const buttonn15 = document.querySelector('propositionbtn5');
+
+function greett15() {
+
+ document.getElementById("prpsion").value = "I've told the customer that his request still awaiting the airline response ";
+
+document.getElementById('propositionbtn1').style.backgroundColor='';
+document.getElementById('propositionbtn2').style.backgroundColor='';
+document.getElementById('propositionbtn3').style.backgroundColor='';
+document.getElementById('propositionbtn4').style.backgroundColor='';
+document.getElementById('propositionbtn5').style.backgroundColor='gray';
+document.getElementById('propositionbtn6').style.backgroundColor='';
+document.getElementById('propositionbtn7').style.backgroundColor='';
+document.getElementById('propositionbtn8').style.backgroundColor='';
+document.getElementById('propositionbtn9').style.backgroundColor='';
+document.getElementById('propositionbtn10').style.backgroundColor='';
+
+
+
+
+// 
+document.getElementById('prpsion').style.height = "6em";
+
+
+
+}
+propositionbtn5.addEventListener('click', greett15);
+
+// button 11***********************************button 11**************
+// button 11***********************************button 11**************
+// button 11***********************************button 11**************
+// button 11 **********************************button 11**************
+
+const buttonn16 = document.querySelector('propositionbtn6');
+
+function greett16() {
+
+ document.getElementById("prpsion").value = "We'll not be able to make any alterations about your reservation as it's not under the airline control so that means you'll have to contact the airline from your end ";
+
+
+document.getElementById('propositionbtn1').style.backgroundColor='';
+document.getElementById('propositionbtn2').style.backgroundColor='';
+document.getElementById('propositionbtn3').style.backgroundColor='';
+document.getElementById('propositionbtn4').style.backgroundColor='';
+document.getElementById('propositionbtn5').style.backgroundColor='';
+document.getElementById('propositionbtn6').style.backgroundColor='gray';
+document.getElementById('propositionbtn7').style.backgroundColor='';
+document.getElementById('propositionbtn8').style.backgroundColor='';
+document.getElementById('propositionbtn9').style.backgroundColor='';
+document.getElementById('propositionbtn10').style.backgroundColor='';
+
+
+
+
+
+// 
+document.getElementById('prpsion').style.height = "6em";
+
+
+
+}
+propositionbtn6.addEventListener('click', greett16);
+
+
+// button 11***********************************button 11**************
+// button 11***********************************button 11**************
+// button 11***********************************button 11**************
+// button 11 **********************************button 11**************
+
+const buttonn17 = document.querySelector('propositionbtn7');
+
+function greett17() {
+
+ document.getElementById("prpsion").value = "• FARE DIFFERENCE    =     " +"\n" + "• TAX DIFFERENCE      =     " +"\n" + "• PENALTY                      =     "  +"\n" +  " *TOTAL TO BE COLLECTED    =     "   +"\n"+"\n" + "• HANDLING FEE           =     " +"\n" + " *TOTAL TO BE CHARGED   =     " ;
+
+document.getElementById('propositionbtn1').style.backgroundColor='';
+document.getElementById('propositionbtn2').style.backgroundColor='';
+document.getElementById('propositionbtn3').style.backgroundColor='';
+document.getElementById('propositionbtn4').style.backgroundColor='';
+document.getElementById('propositionbtn5').style.backgroundColor='';
+document.getElementById('propositionbtn6').style.backgroundColor='';
+document.getElementById('propositionbtn7').style.backgroundColor='gray';
+document.getElementById('propositionbtn8').style.backgroundColor='';
+document.getElementById('propositionbtn9').style.backgroundColor='';
+document.getElementById('propositionbtn10').style.backgroundColor='';
+
+
+
+
+// 
+document.getElementById('prpsion').style.height = "6em";
+
+
+
+}
+propositionbtn7.addEventListener('click', greett17);
+
+// button 11***********************************button 11**************
+// button 11***********************************button 11**************
+// button 11***********************************button 11**************
+// button 11 **********************************button 11**************
+
+const buttonn18 = document.querySelector('propositionbtn8');
+
+function greett18() {
+
+ document.getElementById("prpsion").value = "Airline Penalty    =   " +"\n" + "Non Refundable Tax      =     " +"\n" + "*Total To Be Refunded      ="  +"\n\n" +  " *Handling Fee    = "  ;
+
+document.getElementById('propositionbtn1').style.backgroundColor='';
+document.getElementById('propositionbtn2').style.backgroundColor='';
+document.getElementById('propositionbtn3').style.backgroundColor='';
+document.getElementById('propositionbtn4').style.backgroundColor='';
+document.getElementById('propositionbtn5').style.backgroundColor='';
+document.getElementById('propositionbtn6').style.backgroundColor='';
+document.getElementById('propositionbtn7').style.backgroundColor='';
+document.getElementById('propositionbtn8').style.backgroundColor='gray';
+document.getElementById('propositionbtn9').style.backgroundColor='';
+document.getElementById('propositionbtn10').style.backgroundColor='';
+
+
+
+
+// 
+document.getElementById('prpsion').style.height = "6em";
+
+
+
+}
+propositionbtn8.addEventListener('click', greett18);
+
+
+// button 11***********************************button 11**************
+// button 11***********************************button 11**************
+// button 11***********************************button 11**************
+// button 11 **********************************button 11**************
+
+const buttonn19 = document.querySelector('propositionbtn9');
+
+function greett19() {
+
+ document.getElementById("prpsion").value = "I've Advised The Customer That His Ticket Is 'Non Refundable' but he has the option to: *change the flight or to *get a future credit "   ;
+
+document.getElementById('propositionbtn1').style.backgroundColor='';
+document.getElementById('propositionbtn2').style.backgroundColor='';
+document.getElementById('propositionbtn3').style.backgroundColor='';
+document.getElementById('propositionbtn4').style.backgroundColor='';
+document.getElementById('propositionbtn5').style.backgroundColor='';
+document.getElementById('propositionbtn6').style.backgroundColor='';
+document.getElementById('propositionbtn7').style.backgroundColor='';
+document.getElementById('propositionbtn8').style.backgroundColor='';
+document.getElementById('propositionbtn9').style.backgroundColor='gray';
+document.getElementById('propositionbtn10').style.backgroundColor='';
+
+
+
+
+
+// 
+document.getElementById('prpsion').style.height = "6em";
+
+
+
+}
+propositionbtn9.addEventListener('click', greett19);
+
+
+
+
+
+// button 11***********************************button 11**************
+// button 11***********************************button 11**************
+// button 11***********************************button 11**************
+// button 11 **********************************button 11**************
+
+
+const buttonn20 = document.querySelector('propositionbtn10');
+
+function greett20() {
+
+ document.getElementById("prpsion").value = "*Used Fare = "+"\n\n" + "• Used & Non Refundable Taxes = "+"\n\n\n\n" +"______________\n\n"+"*Fare To Be Refunded = "+"\n\n" +"• Taxes To be Refunded = "+"\n\n\n\n" +"______________\n\n"+"*Airline Penalty  =   " +"\n\n______________\n"+"\n" + "  \n " +"\n" + "*Total To Be Refunded ="  +"\n\n" +  " *Handling Fee = "   ;
+
+document.getElementById('propositionbtn1').style.backgroundColor='';
+document.getElementById('propositionbtn2').style.backgroundColor='';
+document.getElementById('propositionbtn3').style.backgroundColor='';
+document.getElementById('propositionbtn4').style.backgroundColor='';
+document.getElementById('propositionbtn5').style.backgroundColor='';
+document.getElementById('propositionbtn6').style.backgroundColor='';
+document.getElementById('propositionbtn7').style.backgroundColor='';
+document.getElementById('propositionbtn8').style.backgroundColor='';
+document.getElementById('propositionbtn9').style.backgroundColor='';
+document.getElementById('propositionbtn10').style.backgroundColor='gray';
+
+
+
+// 
+document.getElementById('prpsion').style.height = "6em";
+
+
+
+}
+propositionbtn10.addEventListener('click', greett20);
+
+// button 11***********************************button 11**************
+// button 11***********************************button 11**************
+// button 11***********************************button 11**************
+// button 11 **********************************button 11**************
+
+// buttons :
+// buttons :
+// buttons :
+// button 1***********************************button 1**************
+const buttonn1 = document.querySelector('agreementbtn1');
+
+function greett1() {
+
+ document.getElementById("agreement").value = "• Customer Agreed";
+
+document.getElementById('agreementbtn1').style.backgroundColor='gray';
+document.getElementById('agreementbtn2').style.backgroundColor='';
+document.getElementById('agreementbtn3').style.backgroundColor='';
+document.getElementById('agreementbtn4').style.backgroundColor='';
+document.getElementById('agreementbtn5').style.backgroundColor='';
+document.getElementById('agreementbtn6').style.backgroundColor='';
+document.getElementById('agreementbtn7').style.backgroundColor='';
+document.getElementById('agreementbtn8').style.backgroundColor='';
+document.getElementById('agreementbtn9').style.backgroundColor='';
+document.getElementById('agreementbtn10').style.backgroundColor='';
+document.getElementById('agreementbtn11').style.backgroundColor='';
+document.getElementById('agreementbtn12').style.backgroundColor='';
+
+
+// 
+document.getElementById('agreement').style.height = "6em";
+
+}
+agreementbtn1.addEventListener('click', greett1);
+
+// button 2***********************************button 2**************
+// button 2***********************************button 2**************
+// button 2***********************************button 2**************
+// button 2***********************************button 2**************
+const buttonn2 = document.querySelector('agreementbtn2');
+
+function greett2() {
+
+ document.getElementById("agreement").value = "• NO customer didn't agree";
+ 
+document.getElementById('agreementbtn1').style.backgroundColor='';
+document.getElementById('agreementbtn2').style.backgroundColor='gray';
+document.getElementById('agreementbtn3').style.backgroundColor='';
+document.getElementById('agreementbtn4').style.backgroundColor='';
+document.getElementById('agreementbtn5').style.backgroundColor='';
+document.getElementById('agreementbtn6').style.backgroundColor='';
+document.getElementById('agreementbtn7').style.backgroundColor='';
+document.getElementById('agreementbtn8').style.backgroundColor='';
+document.getElementById('agreementbtn9').style.backgroundColor='';
+document.getElementById('agreementbtn10').style.backgroundColor='';
+document.getElementById('agreementbtn11').style.backgroundColor='';
+document.getElementById('agreementbtn12').style.backgroundColor='';
+
+
+// 
+document.getElementById('agreement').style.height = "6em";
+
+}
+agreementbtn2.addEventListener('click', greett2);
+
+// button 3***********************************button 3**************
+// button 3***********************************button 3**************
+// button 3***********************************button 3**************
+// button 3***********************************button 3**************
+const buttonnn1 = document.querySelector('agreementbtn3');
+
+function greettt1() {
+
+ document.getElementById("agreement").value = "• NO The Customer Will Call Us Back";
+
+document.getElementById('agreementbtn1').style.backgroundColor='';
+document.getElementById('agreementbtn2').style.backgroundColor='';
+document.getElementById('agreementbtn3').style.backgroundColor='gray';
+document.getElementById('agreementbtn4').style.backgroundColor='';
+document.getElementById('agreementbtn5').style.backgroundColor='';
+document.getElementById('agreementbtn6').style.backgroundColor='';
+document.getElementById('agreementbtn7').style.backgroundColor='';
+document.getElementById('agreementbtn8').style.backgroundColor='';
+document.getElementById('agreementbtn9').style.backgroundColor='';
+document.getElementById('agreementbtn10').style.backgroundColor='';
+document.getElementById('agreementbtn11').style.backgroundColor='';
+document.getElementById('agreementbtn12').style.backgroundColor='';
+
+
+// 
+document.getElementById('agreement').style.height = "6em";
+
+
+}
+agreementbtn3.addEventListener('click', greettt1);
+
+
+// button 3***********************************button 3**************
+// button 3***********************************button 3**************
+// button 3***********************************button 3**************
+// button 3***********************************button 3**************
+
+
+// button 7***********************************button 7**************
+// button 7***********************************button 7**************
+// button 7***********************************button 7**************
+// button 7***********************************button 7**************
+const buttonn7 = document.querySelector('agreementbtn4');
+
+function greett7() {
+
+ document.getElementById("agreement").value = "• NO Action Has Been Taken";
+
+
+document.getElementById('agreementbtn1').style.backgroundColor='';
+document.getElementById('agreementbtn2').style.backgroundColor='';
+document.getElementById('agreementbtn3').style.backgroundColor='';
+document.getElementById('agreementbtn4').style.backgroundColor='gray';
+document.getElementById('agreementbtn5').style.backgroundColor='';
+document.getElementById('agreementbtn6').style.backgroundColor='';
+document.getElementById('agreementbtn7').style.backgroundColor='';
+document.getElementById('agreementbtn8').style.backgroundColor='';
+document.getElementById('agreementbtn9').style.backgroundColor='';
+document.getElementById('agreementbtn10').style.backgroundColor='';
+document.getElementById('agreementbtn11').style.backgroundColor='';
+document.getElementById('agreementbtn12').style.backgroundColor='';
+
+
+
+// 
+document.getElementById('agreement').style.height = "6em";
+
+
+}
+agreementbtn4.addEventListener('click', greett7);
+// button 8***********************************button 8**************
+// button 8***********************************button 8**************
+// button 8***********************************button 8**************
+// button 8***********************************button 8**************
+const buttonn8 = document.querySelector('agreementbtn5');
+
+function greett8() {
+
+ document.getElementById("agreement").value = "• waiting for internal support To Proceed";
+
+document.getElementById('agreementbtn1').style.backgroundColor='';
+document.getElementById('agreementbtn2').style.backgroundColor='';
+document.getElementById('agreementbtn3').style.backgroundColor='';
+document.getElementById('agreementbtn4').style.backgroundColor='';
+document.getElementById('agreementbtn5').style.backgroundColor='gray';
+document.getElementById('agreementbtn6').style.backgroundColor='';
+document.getElementById('agreementbtn7').style.backgroundColor='';
+document.getElementById('agreementbtn8').style.backgroundColor='';
+document.getElementById('agreementbtn9').style.backgroundColor='';
+document.getElementById('agreementbtn10').style.backgroundColor='';
+document.getElementById('agreementbtn11').style.backgroundColor='';
+document.getElementById('agreementbtn12').style.backgroundColor='';
+
+
+
+// 
+document.getElementById('agreement').style.height = "6em";
+
+
+}
+agreementbtn5.addEventListener('click', greett8);
+// button 9***********************************button 9**************
+// button 9***********************************button 9**************
+// button 9***********************************button 9**************
+// button 9***********************************button 9**************
+const buttonn9 = document.querySelector('agreementbtn6');
+
+function greett9() {
+
+ document.getElementById("agreement").value = "• waiting for investigation team";
+
+
+document.getElementById('agreementbtn1').style.backgroundColor='';
+document.getElementById('agreementbtn2').style.backgroundColor='';
+document.getElementById('agreementbtn3').style.backgroundColor='';
+document.getElementById('agreementbtn4').style.backgroundColor='';
+document.getElementById('agreementbtn5').style.backgroundColor='';
+document.getElementById('agreementbtn6').style.backgroundColor='gray';
+document.getElementById('agreementbtn7').style.backgroundColor='';
+document.getElementById('agreementbtn8').style.backgroundColor='';
+document.getElementById('agreementbtn9').style.backgroundColor='';
+document.getElementById('agreementbtn10').style.backgroundColor='';
+document.getElementById('agreementbtn11').style.backgroundColor='';
+document.getElementById('agreementbtn12').style.backgroundColor='';
+
+
+// 
+document.getElementById('agreement').style.height = "6em";
+
+
+}
+agreementbtn6.addEventListener('click', greett9);
+
+// button 10***********************************button 10**************
+// button 10***********************************button 10**************
+// button 10***********************************button 10**************
+// button 10***********************************button 10**************
+
+const buttonn44 = document.querySelector('agreementbtn7');
+
+function greett44() {
+
+ document.getElementById("agreement").value = "• waiting for the airline response";
+
+
+
+document.getElementById('agreementbtn1').style.backgroundColor='';
+document.getElementById('agreementbtn2').style.backgroundColor='';
+document.getElementById('agreementbtn3').style.backgroundColor='';
+document.getElementById('agreementbtn4').style.backgroundColor='';
+document.getElementById('agreementbtn5').style.backgroundColor='';
+document.getElementById('agreementbtn6').style.backgroundColor='';
+document.getElementById('agreementbtn7').style.backgroundColor='gray';
+document.getElementById('agreementbtn8').style.backgroundColor='';
+document.getElementById('agreementbtn9').style.backgroundColor='';
+document.getElementById('agreementbtn10').style.backgroundColor='';
+document.getElementById('agreementbtn11').style.backgroundColor='';
+document.getElementById('agreementbtn12').style.backgroundColor='';
+
+
+// 
+document.getElementById('agreement').style.height = "6em";
+
+
+}
+agreementbtn7.addEventListener('click', greett44);
+
+// button 10***********************************button 10**************
+// button 10***********************************button 10**************
+// button 10***********************************button 10**************
+// button 10***********************************button 10**************
+
+
+const buttonn45 = document.querySelector('agreementbtn8');
+
+function greett45() {
+
+ document.getElementById("agreement").value = "• waiting for the supplier response";
+
+
+
+document.getElementById('agreementbtn1').style.backgroundColor='';
+document.getElementById('agreementbtn2').style.backgroundColor='';
+document.getElementById('agreementbtn3').style.backgroundColor='';
+document.getElementById('agreementbtn4').style.backgroundColor='';
+document.getElementById('agreementbtn5').style.backgroundColor='';
+document.getElementById('agreementbtn6').style.backgroundColor='';
+document.getElementById('agreementbtn7').style.backgroundColor='';
+document.getElementById('agreementbtn8').style.backgroundColor='gray';
+document.getElementById('agreementbtn9').style.backgroundColor='';
+document.getElementById('agreementbtn10').style.backgroundColor='';
+document.getElementById('agreementbtn11').style.backgroundColor='';
+document.getElementById('agreementbtn12').style.backgroundColor='';
+
+
+
+// 
+document.getElementById('agreement').style.height = "6em";
+
+
+}
+agreementbtn8.addEventListener('click', greett45);
+
+// button 10***********************************button 10**************
+// button 10***********************************button 10**************
+// button 10***********************************button 10**************
+// button 10***********************************button 10**************
+
+
+const buttonn46 = document.querySelector('agreementbtn9');
+
+function greett46() {
+
+ document.getElementById("agreement").value = "• the customer waiting for a call from a Supervisor";
+
+
+document.getElementById('agreementbtn1').style.backgroundColor='';
+document.getElementById('agreementbtn2').style.backgroundColor='';
+document.getElementById('agreementbtn3').style.backgroundColor='';
+document.getElementById('agreementbtn4').style.backgroundColor='';
+document.getElementById('agreementbtn5').style.backgroundColor='';
+document.getElementById('agreementbtn6').style.backgroundColor='';
+document.getElementById('agreementbtn7').style.backgroundColor='';
+document.getElementById('agreementbtn8').style.backgroundColor='';
+document.getElementById('agreementbtn9').style.backgroundColor='gray';
+document.getElementById('agreementbtn10').style.backgroundColor='';
+document.getElementById('agreementbtn11').style.backgroundColor='';
+document.getElementById('agreementbtn12').style.backgroundColor='';
+
+
+
+// 
+document.getElementById('agreement').style.height = "6em";
+
+
+}
+agreementbtn9.addEventListener('click', greett46);
+
+// button 10***********************************button 10**************
+// button 10***********************************button 10**************
+// button 10***********************************button 10**************
+// button 10***********************************button 10**************
+
+// button 4***********************************button 4**************
+// button 4***********************************button 4**************
+// button 4***********************************button 4**************
+// button 4***********************************button 4**************
+const buttonn4 = document.querySelector('agreementbtn10');
+
+function greett4() {
+
+ document.getElementById("agreement").value = "• Tickets has been reissued";
+
+
+document.getElementById('agreementbtn1').style.backgroundColor='';
+document.getElementById('agreementbtn2').style.backgroundColor='';
+document.getElementById('agreementbtn3').style.backgroundColor='';
+document.getElementById('agreementbtn4').style.backgroundColor='';
+document.getElementById('agreementbtn5').style.backgroundColor='';
+document.getElementById('agreementbtn6').style.backgroundColor='';
+document.getElementById('agreementbtn7').style.backgroundColor='';
+document.getElementById('agreementbtn8').style.backgroundColor='';
+document.getElementById('agreementbtn9').style.backgroundColor='';
+document.getElementById('agreementbtn10').style.backgroundColor='gray';
+document.getElementById('agreementbtn11').style.backgroundColor='';
+document.getElementById('agreementbtn12').style.backgroundColor='';
+
+
+// 
+document.getElementById('agreement').style.height = "6em";
+
+
+}
+agreementbtn10.addEventListener('click', greett4);
+// button 5***********************************button 5**************
+// button 5***********************************button 5**************
+// button 5***********************************button 5**************
+// button 5***********************************button 5**************
+const buttonn5 = document.querySelector('agreementbtn11');
+
+function greett5() {
+
+ document.getElementById("agreement").value = "• Tickets has been refunded";
+
+document.getElementById('agreementbtn1').style.backgroundColor='';
+document.getElementById('agreementbtn2').style.backgroundColor='';
+document.getElementById('agreementbtn3').style.backgroundColor='';
+document.getElementById('agreementbtn4').style.backgroundColor='';
+document.getElementById('agreementbtn5').style.backgroundColor='';
+document.getElementById('agreementbtn6').style.backgroundColor='';
+document.getElementById('agreementbtn7').style.backgroundColor='';
+document.getElementById('agreementbtn8').style.backgroundColor='';
+document.getElementById('agreementbtn9').style.backgroundColor='';
+document.getElementById('agreementbtn10').style.backgroundColor='';
+document.getElementById('agreementbtn11').style.backgroundColor='gray';
+document.getElementById('agreementbtn12').style.backgroundColor='';
+
+
+
+// 
+document.getElementById('agreement').style.height = "6em";
+
+
+}
+agreementbtn11.addEventListener('click', greett5);
+// button 6***********************************button 6**************
+// button 6***********************************button 6**************
+// button 6***********************************button 6**************
+// button 6***********************************button 6**************
+
+
+
+const buttonn74 = document.querySelector('agreementbtn12');
+
+function greett74() {
+
+ document.getElementById("agreement").value = "• Segments has been deleted";
+
+
+document.getElementById('agreementbtn1').style.backgroundColor='';
+document.getElementById('agreementbtn2').style.backgroundColor='';
+document.getElementById('agreementbtn3').style.backgroundColor='';
+document.getElementById('agreementbtn4').style.backgroundColor='';
+document.getElementById('agreementbtn5').style.backgroundColor='';
+document.getElementById('agreementbtn6').style.backgroundColor='';
+document.getElementById('agreementbtn7').style.backgroundColor='';
+document.getElementById('agreementbtn8').style.backgroundColor='';
+document.getElementById('agreementbtn9').style.backgroundColor='';
+document.getElementById('agreementbtn10').style.backgroundColor='';
+document.getElementById('agreementbtn11').style.backgroundColor='';
+document.getElementById('agreementbtn12').style.backgroundColor='gray';
+
+
+// 
+document.getElementById('agreement').style.height = "6em";
+
+
+}
+agreementbtn12.addEventListener('click', greett74);
+
+
+// button 4***********************************button 4**************
+// button 4***********************************button 4**************
+// button 4***********************************button 4**************
+// button 4***********************************button 4**************
+
+
+
+
+
+// button 4***********************************button 4**************
+// button 4***********************************button 4**************
+// button 4***********************************button 4**************
+// button 4***********************************button 4**************
+
+
+// button 11***********************************button 11**************
+// button 11***********************************button 11**************
+// button 11***********************************button 11**************
+// button 11 **********************************button 11**************
+
+
+// const buttonn332 = document.querySelector('farerulesbtn2');
+
+// function greett332() {
+
+//  document.getElementById("farerules").value = "No Policy From The AL Dedected"  ;
+
+
+// }
+// farerulesbtn2.addEventListener('click', greett332);
+
+
+// // button 11***********************************button 11**************
+// // button 11***********************************button 11**************
+// // button 11***********************************button 11**************
+// // button 11 **********************************button 11**************
+
+
+// const buttonn333 = document.querySelector('farerulesbtn3');
+
+// function greett333() {
+
+//  document.getElementById("farerules").value = "Not Aplicable N/A"  ;
+
+
+// }
+// farerulesbtn3.addEventListener('click', greett333);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+////////////////////////////////////// Templates Button ////////////////////////
+////////////////////////////////////// Templates Button ////////////////////////
+////////////////////////////////////// Templates Button ////////////////////////
+////////////////////////////////////// Templates Button ////////////////////////
+
+
+
+const buttonTemplateson = document.querySelector('Templateson');
+
+function greetTemplateson() {
+
+document.getElementById("Templateson").style.visibility = "visible";
+document.getElementById("Templatesoff").style.visibility = "visible";
+
+
+
+document.getElementById("wrapperid").style.display = "outline-block";
+document.getElementById("wrapperid").style.visibility = "visible";
+document.getElementById("maindiv").style.marginLeft = "0px";
+
+document.getElementById("maincontentheader").style.paddingLeft = "20px";
+document.getElementById("maincontentheader").style.opacity = "1";
+
+
+document.getElementById("maincontentheader").style.marginLeft = "-0px";
+document.getElementById("maincontentheader").style.width = "100%";
+
+// document.getElementById("cxinteraction2").style.width = "160px";
+// document.getElementById("zdid").style.width = "160px";
+// document.getElementById("prpsion").style.width = "160px";
+// document.getElementById("agreement").style.width = "160px";
+ document.getElementById("maindiv").style.width = "100%";
+
+
+// related to control buttons  "templates"
+document.getElementById("Templateson").style.border = "1px solid #0000FF";
+document.getElementById("Templatesoff").style.border = "0px solid #0000FF";
+
+
+
+}
+Templateson.addEventListener('click', greetTemplateson);
+
+
+////////////////////////////////////// Templates OFF ////////////////////////
+////////////////////////////////////// Templates OFF ////////////////////////
+////////////////////////////////////// Templates OFF ////////////////////////
+
+
+const buttonTemplatesoff = document.querySelector('Templatesoff');
+
+function greetTemplatesoff() {
+
+document.getElementById("Templatesoff").style.visibility = "visible";
+document.getElementById("Templateson").style.visibility = "visible";
+
+
+// document.getElementById("wrapperid").style.display = "none";
+document.getElementById("wrapperid").style.visibility = "hidden";
+document.getElementById("maindiv").style.marginLeft = "-220px";
+
+
+
+// fix the below 2 rows
+
+document.getElementById("maincontentheader").style.marginLeft = "-200px";
+document.getElementById("maincontentheader").style.width = "130%";
+
+
+
+
+// document.getElementById("cxinteraction2").style.width = "160px";
+// document.getElementById("zdid").style.width = "160px";
+// document.getElementById("prpsion").style.width = "160px";
+// document.getElementById("agreement").style.width = "160px";
+ document.getElementById("maindiv").style.width = "119%";
+
+
+
+// related to control buttons  "templates"
+document.getElementById("Templatesoff").style.border = "1px solid #0000FF";
+document.getElementById("Templateson").style.border = "0px solid #0000FF";
+
+}
+Templatesoff.addEventListener('click', greetTemplatesoff);
+
+////////////////////////////////////// Templates BUTTONS  ////////////////////////
+////////////////////////////////////// Templates BUTTONS ////////////////////////
+////////////////////////////////////// Templates BUTTONS OFF ////////////////////////
+
+
+const readymadebuttonsoff = document.querySelector('Readymadebuttonsoff');
+
+function greetreadymadebuttonsoff() {
+
+document.getElementById("Readymadebuttonsoff").style.visibility = "visible";
+document.getElementById("Readymadebuttonson").style.visibility = "visible";
+
+document.getElementById('propositionbtn10').style.visibility = "hidden";
+document.getElementById("propositionbtn9").style.visibility = "hidden";
+document.getElementById("propositionbtn8").style.visibility = "hidden";
+document.getElementById("propositionbtn7").style.visibility = "hidden";
+document.getElementById("propositionbtn4").style.visibility = "hidden";
+document.getElementById("propositionbtn6").style.visibility = "hidden";
+document.getElementById("propositionbtn5").style.visibility = "hidden";
+document.getElementById("propositionbtn3").style.visibility = "hidden";
+document.getElementById("propositionbtn2").style.visibility = "hidden";
+document.getElementById("propositionbtn1").style.visibility = "hidden";
+
+document.getElementById("agreementbtn1").style.visibility = "hidden";
+document.getElementById("agreementbtn2").style.visibility = "hidden";
+document.getElementById("agreementbtn3").style.visibility = "hidden";
+document.getElementById("agreementbtn4").style.visibility = "hidden";
+document.getElementById("agreementbtn5").style.visibility = "hidden";
+document.getElementById("agreementbtn6").style.visibility = "hidden";
+document.getElementById("agreementbtn7").style.visibility = "hidden";
+document.getElementById("agreementbtn8").style.visibility = "hidden";
+document.getElementById("agreementbtn9").style.visibility = "hidden";
+document.getElementById("agreementbtn10").style.visibility = "hidden";
+document.getElementById("agreementbtn11").style.visibility = "hidden";
+document.getElementById("agreementbtn12").style.visibility = "hidden";
+
+
+
+// document.getElementById('Readymadebuttonsoff').id = 'Readymadebuttonson';
+
+
+
+document.getElementById("Readymadebuttonson").style.border = "0px solid #0000FF";
+document.getElementById("Readymadebuttonsoff").style.border = "1px solid #0000FF";
+
+// ON IT
+// document.getElementById("maininptsheader").style.paddingTop = "1px";
+// document.getElementById("maininptsheader").style.marginBottom = "-13px";
+document.getElementById("agreementbtn1").style.fontSize = "0px";
+document.getElementById("agreementbtn2").style.fontSize = "0px";
+document.getElementById("agreementbtn3").style.fontSize = "0px";
+document.getElementById("agreementbtn4").style.fontSize = "0px";
+document.getElementById("agreementbtn5").style.fontSize = "0px";
+document.getElementById("agreementbtn6").style.fontSize = "0px";
+document.getElementById("agreementbtn7").style.fontSize = "0px";
+document.getElementById("agreementbtn8").style.fontSize = "0px";
+document.getElementById("agreementbtn9").style.fontSize = "0px";
+document.getElementById("agreementbtn10").style.fontSize = "0px";
+document.getElementById("agreementbtn11").style.fontSize = "0px";
+document.getElementById("agreementbtn12").style.fontSize = "0px";
+
+document.getElementById("propositionbtn1").style.fontSize = "0px";
+document.getElementById("propositionbtn2").style.fontSize = "0px";
+document.getElementById("propositionbtn3").style.fontSize = "0px";
+document.getElementById("propositionbtn4").style.fontSize = "0px";
+document.getElementById("propositionbtn5").style.fontSize = "0px";
+document.getElementById("propositionbtn6").style.fontSize = "0px";
+document.getElementById("propositionbtn7").style.fontSize = "0px";
+document.getElementById("propositionbtn8").style.fontSize = "0px";
+document.getElementById("propositionbtn9").style.fontSize = "0px";
+document.getElementById("propositionbtn10").style.fontSize = "0px";
+
+}
+Readymadebuttonsoff.addEventListener('click', greetreadymadebuttonsoff);
+
+
+////////////////////////////////////// Templates BUTTONS  ////////////////////////
+////////////////////////////////////// Templates BUTTONS ////////////////////////
+////////////////////////////////////// Templates BUTTONS ON ////////////////////////
+
+
+const readymadebuttonson = document.querySelector('Readymadebuttonson');
+
+function greetreadymadebuttonson() {
+
+document.getElementById("Readymadebuttonson").style.visibility = "visible";
+document.getElementById("Readymadebuttonsoff").style.visibility = "visible";
+
+
+document.getElementById("propositionbtn10").style.visibility = "visible";
+document.getElementById("propositionbtn9").style.visibility = "visible";
+document.getElementById("propositionbtn8").style.visibility = "visible";
+document.getElementById("propositionbtn7").style.visibility = "visible";
+document.getElementById("propositionbtn4").style.visibility = "visible";
+document.getElementById("propositionbtn6").style.visibility = "visible";
+document.getElementById("propositionbtn5").style.visibility = "visible";
+document.getElementById("propositionbtn3").style.visibility = "visible";
+document.getElementById("propositionbtn2").style.visibility = "visible";
+document.getElementById("propositionbtn1").style.visibility = "visible";
+
+document.getElementById("agreementbtn1").style.visibility = "visible";
+document.getElementById("agreementbtn2").style.visibility = "visible";
+document.getElementById("agreementbtn3").style.visibility = "visible";
+document.getElementById("agreementbtn4").style.visibility = "visible";
+document.getElementById("agreementbtn5").style.visibility = "visible";
+document.getElementById("agreementbtn6").style.visibility = "visible";
+document.getElementById("agreementbtn7").style.visibility = "visible";
+document.getElementById("agreementbtn8").style.visibility = "visible";
+document.getElementById("agreementbtn9").style.visibility = "visible";
+document.getElementById("agreementbtn10").style.visibility = "visible";
+document.getElementById("agreementbtn11").style.visibility = "visible";
+document.getElementById("agreementbtn12").style.visibility = "visible";
+
+
+
+document.getElementById("Readymadebuttonson").style.border = "1px solid #0000FF";
+document.getElementById("Readymadebuttonsoff").style.border = "0px solid #0000FF";
+
+
+
+document.getElementById("agreementbtn1").style.fontSize = "13px";
+document.getElementById("agreementbtn2").style.fontSize = "13px";
+document.getElementById("agreementbtn3").style.fontSize = "13px";
+document.getElementById("agreementbtn4").style.fontSize = "13px";
+document.getElementById("agreementbtn5").style.fontSize = "13px";
+document.getElementById("agreementbtn6").style.fontSize = "13px";
+document.getElementById("agreementbtn7").style.fontSize = "13px";
+document.getElementById("agreementbtn8").style.fontSize = "13px";
+document.getElementById("agreementbtn9").style.fontSize = "13px";
+document.getElementById("agreementbtn10").style.fontSize = "13px";
+document.getElementById("agreementbtn11").style.fontSize = "13px";
+document.getElementById("agreementbtn12").style.fontSize = "13px";
+
+document.getElementById("propositionbtn1").style.fontSize = "13px";
+document.getElementById("propositionbtn2").style.fontSize = "13px";
+document.getElementById("propositionbtn3").style.fontSize = "13px";
+document.getElementById("propositionbtn4").style.fontSize = "13px";
+document.getElementById("propositionbtn5").style.fontSize = "13px";
+document.getElementById("propositionbtn6").style.fontSize = "13px";
+document.getElementById("propositionbtn7").style.fontSize = "13px";
+document.getElementById("propositionbtn8").style.fontSize = "13px";
+document.getElementById("propositionbtn9").style.fontSize = "13px";
+document.getElementById("propositionbtn10").style.fontSize = "13px";
+
+
+
+}
+Readymadebuttonson.addEventListener('click', greetreadymadebuttonson);
+
+
+</script>
+
+
+
+
+
+</html>
